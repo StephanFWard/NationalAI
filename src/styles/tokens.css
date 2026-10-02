@@ -1,0 +1,102 @@
+/*
+ * Design tokens for the National AI Advancement for Human Innovation site.
+ *
+ * Theme: "deep slate" - a soft dark theme. Surfaces sit close to one another on
+ * the luminance scale and the text colour is a muted light slate rather than
+ * pure white, so the page stays dark without the harsh black/white flip you get
+ * from pure #000 on #fff (contrast ratio stays around 10:1 instead of 21:1).
+ *
+ * Every colour, spacing step, font size and radius used by a component must come
+ * from this file - component CSS never hardcodes a value.
+ */
+
+:root {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --color-surface: #232937;
+  --color-surface-raised: #2c3343;
+  --color-surface-sunken: #1c212b;
+  --color-surface-veil: rgb(35 41 55 / 88%);
+  --color-border: #3a4356;
+  --color-border-strong: #4d5871;
+
+  /* Text */
+  --color-text: #ced6e2;
+  --color-text-muted: #9aa4b8;
+  --color-text-inverse: #131820;
+
+  /* Accents */
+  --color-accent: #7ec8ba;
+  --color-accent-strong: #5fb3a3;
+  --color-accent-soft: #a8dfd3;
+  --color-accent-tint: rgb(126 200 186 / 12%);
+  --color-accent-tint-strong: rgb(126 200 186 / 22%);
+  --color-link: #93b9e6;
+  --color-link-hover: #b6d0f2;
+
+  /* Typography */
+  --font-family-base: "Segoe UI", "Helvetica Neue", helvetica, arial, system-ui, sans-serif;
+  --font-family-mono: "Cascadia Mono", "SFMono-Regular", consolas, "Liberation Mono", monospace;
+  --font-size-xs: 0.8125rem;
+  --font-size-sm: 0.9375rem;
+  --font-size-base: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --font-size-lg: clamp(1.125rem, 1.08rem + 0.22vw, 1.25rem);
+  --font-size-xl: clamp(1.3125rem, 1.24rem + 0.36vw, 1.5rem);
+  --font-size-2xl: clamp(1.625rem, 1.47rem + 0.78vw, 2rem);
+  --font-size-3xl: clamp(2rem, 1.7rem + 1.5vw, 2.75rem);
+  --font-size-4xl: clamp(2.375rem, 1.85rem + 2.6vw, 3.5rem);
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.15;
+  --line-height-snug: 1.35;
+  --line-height-base: 1.65;
+  --line-height-relaxed: 1.8;
+  --letter-spacing-tight: -0.015em;
+  --letter-spacing-wide: 0.08em;
+  --letter-spacing-wider: 0.16em;
+
+  /* Spacing */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4.5rem;
+  --space-3xl: 6rem;
+  --space-4xl: 8rem;
+
+  /* Layout */
+  --layout-max-width: 74rem;
+  --layout-text-width: 46rem;
+  --layout-gutter: clamp(1.25rem, 4vw, 4rem);
+
+  /* Borders, radii and elevation */
+  --border-width: 1px;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1.125rem;
+  --radius-pill: 999px;
+  --shadow-soft: 0 1px 2px rgb(9 12 18 / 35%), 0 10px 30px rgb(9 12 18 / 22%);
+  --shadow-lifted: 0 2px 4px rgb(9 12 18 / 40%), 0 18px 40px rgb(9 12 18 / 30%);
+
+  /* Focus ring */
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 3px;
+
+  /* Decorative background glow */
+  --gradient-glow: radial-gradient(
+    120% 80% at 12% -10%,
+    var(--color-accent-tint) 0%,
+    transparent 60%
+  );
+
+  /* Motion */
+  --transition-fast: 120ms ease-out;
+  --transition-base: 220ms ease-out;
+  --transition-slow: 400ms ease-out;
+}

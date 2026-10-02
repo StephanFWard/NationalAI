@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: nationalai
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: SITE_URL
+        value: https://nationalai.onrender.com
