@@ -76,6 +76,22 @@ test('pages keep exact wording, contact details, and no WordPress or PayPal trac
   assert.ok(articles.includes('910.727.9500'), 'articles page is missing the updated phone number');
   assert.ok(articles.includes('stephan.ward5@icloud.com'), 'articles page is missing the contact email');
   assert.ok(
+    articles.includes('578 Arn Ward Road, Whiteville, NC 28472'),
+    'articles page is missing the updated Whiteville address'
+  );
+  assert.ok(
+    !articles.includes('839 Banner Elk Rd'),
+    'articles page still contains the old Benson address'
+  );
+  assert.ok(
+    articles.includes('I have a next-generation AI trade secrete concept.'),
+    'articles page lost the original project wording'
+  );
+  assert.ok(
+    articles.includes('we use different models to attempt to find cures for diseases and cancers'),
+    'articles page is missing the disease/cancer cure scope wording'
+  );
+  assert.ok(
     articles.includes('AFFIDAVIT') === false,
     'articles page should keep its own Articles of Incorporation wording, not the homepage affidavit'
   );
@@ -94,6 +110,7 @@ test('stylesheet uses the soft dark theme tokens without hardcoded colors', () =
   assert.ok(css.includes('--color-surface: #232937'), 'soft dark surface token is missing');
   assert.ok(css.includes('.document__subheading'), 'document subheading style is missing');
   assert.ok(css.includes('.site-header__skip'), 'skip-link style is missing');
+  assert.ok(css.includes('justify-content: center'), 'nav links are not center-justified');
 
   const componentCss = css.split('/* ===== ')[1] || '';
   assert.ok(!/#[0-9a-fA-F]{3,8}/.test(componentCss.split('src/styles/tokens.css')[0] || ''), 'unexpected leading CSS');
