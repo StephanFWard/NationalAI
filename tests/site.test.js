@@ -101,6 +101,13 @@ test('pages keep exact wording, contact details, and no WordPress or PayPal trac
     home.includes('AFFIDAVIT OF ORGANIZATIONAL INTENT AND FINANCIAL COMPLIANCE'),
     'homepage affidavit wording changed'
   );
+
+  for (const file of distFiles('.html')) {
+    assert.ok(
+      fs.readFileSync(file, 'utf8').includes('Updated Website: 10/03/2026'),
+      `${path.relative(ROOT_DIR, file)} is missing the footer update stamp`
+    );
+  }
 });
 
 test('stylesheet uses the soft dark theme tokens without hardcoded colors', () => {
