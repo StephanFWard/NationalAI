@@ -20,6 +20,11 @@
   letter-spacing: var(--letter-spacing-tight);
 }
 
+.site-footer__updated {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
 .site-footer__list {
   display: flex;
   flex-wrap: wrap;
