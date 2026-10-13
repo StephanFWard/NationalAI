@@ -37,6 +37,11 @@ const SRC_DIR = path.join(ROOT_DIR, 'src');
 const PAGES_DIR = path.join(SRC_DIR, 'pages');
 const COMPONENTS_DIR = path.join(SRC_DIR, 'components');
 const STYLES_DIR = path.join(SRC_DIR, 'styles');
+const WORK_LOG_DIR = path.join(ROOT_DIR, 'docs', 'work-log');
+const WORK_LOG_FILES = [
+  '2026-retrospective-estimate.docx',
+  '2026-2027-production-integration-plan.docx'
+];
 
 /**
  * Canonical origin used for sitemap.xml and robots.txt.
@@ -365,6 +370,13 @@ function build(argv = process.argv.slice(2)) {
 
   writeFile(path.join(outDir, 'assets', 'styles.css'), bundleStylesheet(componentNames));
   writeFile(path.join(outDir, 'assets', 'favicon.svg'), FAVICON_SVG);
+  for (const file of WORK_LOG_FILES) {
+    const sourceFile = path.join(WORK_LOG_DIR, file);
+    if (!fs.existsSync(sourceFile)) {
+      throw new Error(`build.js: missing public work-log document ${sourceFile}`);
+    }
+    fs.copyFileSync(sourceFile, path.join(outDir, 'work-log', file));
+  }
   writeFile(path.join(outDir, 'sitemap.xml'), buildSitemap(pages));
   writeFile(path.join(outDir, 'robots.txt'), buildRobots());
 

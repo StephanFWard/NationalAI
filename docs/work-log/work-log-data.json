@@ -1,0 +1,3824 @@
+{
+  "generatedAt": "2026-10-13",
+  "retrospective": {
+    "periodStartDate": "2026-01-01",
+    "periodEndDate": "2026-10-11",
+    "totalWeeks": 41,
+    "totalHours": 820,
+    "availabilityCheckHours": 41,
+    "computerAndSoftwareUpdateHours": 41,
+    "developmentHours": 738,
+    "sourceHistoryNote": "The NationalAI history inspected for this reconstruction includes the static-site rebuild commit dated 2026-10-02 and a footer update dated 2026-10-03. These entries do not substantiate the earlier weekly activity or hours. The 2026-10-05 through 2026-10-11 migration completion is founder-reported.",
+    "openingPartialWeekNote": "January 1-4, 2026 is a partial Monday-Sunday calendar week but is assigned the stated 20-hour weekly estimate; validate or revise this assumption.",
+    "weeks": [
+      {
+        "week": 1,
+        "startDate": "2026-01-01",
+        "endDate": "2026-01-04",
+        "partialCalendarWeek": true,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Set the annual engineering objectives and service-monitoring rhythm; review the public site and define a work backlog.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 2,
+        "startDate": "2026-01-05",
+        "endDate": "2026-01-11",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Inventory public pages, user journeys, navigation, and content obligations; record issues for correction.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 3,
+        "startDate": "2026-01-12",
+        "endDate": "2026-01-18",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review application ideas and prioritize public-benefit outcomes, feasible milestones, and non-goals.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 4,
+        "startDate": "2026-01-19",
+        "endDate": "2026-01-25",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Draft functional requirements for search, results, analysis, persistence, and deployment boundaries.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 5,
+        "startDate": "2026-01-26",
+        "endDate": "2026-02-01",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Map user stories to current routes and identify failure, empty, loading, and recovery states.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 6,
+        "startDate": "2026-02-02",
+        "endDate": "2026-02-08",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review data inputs and outputs; identify potentially sensitive records and define data-minimization questions.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 7,
+        "startDate": "2026-02-09",
+        "endDate": "2026-02-15",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Design an initial application architecture and document interfaces between web, services, and storage.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 8,
+        "startDate": "2026-02-16",
+        "endDate": "2026-02-22",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review runtime, dependency, and local-development assumptions; capture compatibility and maintainability actions.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 9,
+        "startDate": "2026-02-23",
+        "endDate": "2026-03-01",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Define search request validation, result normalization, and traceable source/evidence requirements.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 10,
+        "startDate": "2026-03-02",
+        "endDate": "2026-03-08",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Plan asynchronous work and error handling for upstream service delays, rate limits, and partial results.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 11,
+        "startDate": "2026-03-09",
+        "endDate": "2026-03-15",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review persistence needs, file-backed data, retention assumptions, and export/restore expectations.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 12,
+        "startDate": "2026-03-16",
+        "endDate": "2026-03-22",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Design UI navigation and separate core user workflows from exploratory demonstration material.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 13,
+        "startDate": "2026-03-23",
+        "endDate": "2026-03-29",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Implement and refine web page structure, accessible content hierarchy, and consistent navigation.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 14,
+        "startDate": "2026-03-30",
+        "endDate": "2026-04-05",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Build or refine service boundaries for search and result presentation; document request and response shapes.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 15,
+        "startDate": "2026-04-06",
+        "endDate": "2026-04-12",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Add input and response checks for common invalid, missing, duplicated, or unavailable data cases.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 16,
+        "startDate": "2026-04-13",
+        "endDate": "2026-04-19",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Improve data normalization and result display so records remain understandable and reviewable.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 17,
+        "startDate": "2026-04-20",
+        "endDate": "2026-04-26",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review queue and background-job patterns; identify duplicate work and retry handling requirements.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 18,
+        "startDate": "2026-04-27",
+        "endDate": "2026-05-03",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Add or refine user feedback for progress, empty results, service errors, and recoverable failures.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 19,
+        "startDate": "2026-05-04",
+        "endDate": "2026-05-10",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review analysis workflow boundaries and define how generated interpretations are separated from source facts.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 20,
+        "startDate": "2026-05-11",
+        "endDate": "2026-05-17",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Design report structure with clear citations, timestamps, limitations, and non-authoritative AI output labeling.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 21,
+        "startDate": "2026-05-18",
+        "endDate": "2026-05-24",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review location and geolocation handling; identify collection, purpose, access, and retention controls.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 22,
+        "startDate": "2026-05-25",
+        "endDate": "2026-05-31",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Improve client-side workflows and verify navigation paths between search, results, and analysis views.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 23,
+        "startDate": "2026-06-01",
+        "endDate": "2026-06-07",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review responsive layouts and keyboard access across important search and results interactions.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 24,
+        "startDate": "2026-06-08",
+        "endDate": "2026-06-14",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Add/adjust automated checks around routes, build output, core user-facing wording, and regressions.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 25,
+        "startDate": "2026-06-15",
+        "endDate": "2026-06-21",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Inspect errors and logs for actionable diagnostic context while avoiding unnecessary sensitive data.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 26,
+        "startDate": "2026-06-22",
+        "endDate": "2026-06-28",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review external service resilience, throttling, timeouts, and graceful degradation behavior.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 27,
+        "startDate": "2026-06-29",
+        "endDate": "2026-07-05",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Reduce brittle assumptions in browser automation or external-page parsing; record upstream-change risks.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 28,
+        "startDate": "2026-07-06",
+        "endDate": "2026-07-12",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Improve application documentation for setup, configuration, data flow, and operational recovery.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 29,
+        "startDate": "2026-07-13",
+        "endDate": "2026-07-19",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review environment configuration and secret-handling boundaries; distinguish local values from public assets.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 30,
+        "startDate": "2026-07-20",
+        "endDate": "2026-07-26",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Assess dependency and license exposure, including bundled examples, before selecting migration candidates.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 31,
+        "startDate": "2026-07-27",
+        "endDate": "2026-08-02",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review accessibility, content clarity, and privacy implications in user-facing screens and generated reports.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 32,
+        "startDate": "2026-08-03",
+        "endDate": "2026-08-09",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Exercise manual workflows with realistic edge cases; record defects and prioritize fixes.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 33,
+        "startDate": "2026-08-10",
+        "endDate": "2026-08-16",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review build and deployment configuration; document production settings and service ownership.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 34,
+        "startDate": "2026-08-17",
+        "endDate": "2026-08-23",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Plan backup, restore, and data migration checks for application state and user-generated artifacts.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 35,
+        "startDate": "2026-08-24",
+        "endDate": "2026-08-30",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review operational monitoring, availability checks, update routines, and incident escalation notes.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 36,
+        "startDate": "2026-08-31",
+        "endDate": "2026-09-06",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Refine acceptance criteria and release checklist; map each key user journey to evidence.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 37,
+        "startDate": "2026-09-07",
+        "endDate": "2026-09-13",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Conduct integration review across UI, routes, services, storage, and external providers.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 38,
+        "startDate": "2026-09-14",
+        "endDate": "2026-09-20",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Close high-priority defects and document known limitations, residual risks, and follow-up items.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 39,
+        "startDate": "2026-09-21",
+        "endDate": "2026-09-27",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Prepare deployment rehearsal, smoke-test steps, rollback conditions, and post-deploy checks.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 40,
+        "startDate": "2026-09-28",
+        "endDate": "2026-10-04",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "Review public website migration scope, page/content coverage, build behavior, and deployment readiness.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      },
+      {
+        "week": 41,
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-11",
+        "partialCalendarWeek": false,
+        "totalHours": 20,
+        "availabilityCheckHours": 1,
+        "computerAndSoftwareUpdateHours": 1,
+        "developmentHours": 18,
+        "developmentBreakdown": {
+          "designAndPlanningHours": 5,
+          "implementationAndConfigurationHours": 10,
+          "verificationAndDocumentationHours": 3
+        },
+        "estimatedWorkFocus": "User-reported migration closeout and stabilization focus; verify availability, links, content, build output, and follow-up notes.",
+        "recordStatus": "Reconstructed estimate; verify against contemporaneous records."
+      }
+    ]
+  },
+  "projectPlan": {
+    "startDate": "2026-10-13",
+    "endDate": "2027-04-13",
+    "plannedHours": 480,
+    "plannedWorkdays": 79,
+    "scheduledWeekdays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "operationalOverheadExcluded": [
+      "Weekly website availability check (1 hour/week)",
+      "Weekly computer/software updates (1 hour/week)"
+    ],
+    "dailyEntries": [
+      {
+        "date": "2026-10-13",
+        "weekday": "Tuesday",
+        "hours": 8,
+        "phaseId": "1",
+        "phaseName": "Discovery, inventory, and acceptance baseline",
+        "wbs": "1.01",
+        "task": "Confirm production scope and non-goals",
+        "expectedDeliverable": "Approved scope matrix and exclusions.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "1.01.1",
+            "hours": 2,
+            "task": "Record the user-facing workflows that belong in NationalAI and explicitly separate unrelated bundled examples."
+          },
+          {
+            "wbs": "1.01.2",
+            "hours": 4,
+            "task": "Compare the scope boundary against both repositories and the deployment target."
+          },
+          {
+            "wbs": "1.01.3",
+            "hours": 1,
+            "task": "Verify \"Confirm production scope and non-goals\" against acceptance evidence: Approved scope matrix and exclusions."
+          },
+          {
+            "wbs": "1.01.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Confirm production scope and non-goals\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-14",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "1",
+        "phaseName": "Discovery, inventory, and acceptance baseline",
+        "wbs": "1.02",
+        "task": "Inventory NationalAI site routes and build",
+        "expectedDeliverable": "Destination baseline and route inventory.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "1.02.1",
+            "hours": 1,
+            "task": "Map static pages, shared components, build outputs, hosting settings, and existing regression checks."
+          },
+          {
+            "wbs": "1.02.2",
+            "hours": 3,
+            "task": "Rebuild from a clean output directory and capture current behavior as the destination baseline."
+          },
+          {
+            "wbs": "1.02.3",
+            "hours": 1,
+            "task": "Verify \"Inventory NationalAI site routes and build\" against acceptance evidence: Destination baseline and route inventory."
+          },
+          {
+            "wbs": "1.02.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Inventory NationalAI site routes and build\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-19",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "1",
+        "phaseName": "Discovery, inventory, and acceptance baseline",
+        "wbs": "1.03",
+        "task": "Inventory patent-search application entry points",
+        "expectedDeliverable": "Application component and route inventory.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "1.03.1",
+            "hours": 1,
+            "task": "Map Express routes, controllers, services, UI assets, external providers, and startup behavior."
+          },
+          {
+            "wbs": "1.03.2",
+            "hours": 3,
+            "task": "Trace each core workflow to its source modules without copying bundled dependency trees."
+          },
+          {
+            "wbs": "1.03.3",
+            "hours": 1,
+            "task": "Verify \"Inventory patent-search application entry points\" against acceptance evidence: Application component and route inventory."
+          },
+          {
+            "wbs": "1.03.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Inventory patent-search application entry points\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "1",
+        "phaseName": "Discovery, inventory, and acceptance baseline",
+        "wbs": "1.04",
+        "task": "Trace data flows and storage",
+        "expectedDeliverable": "Data-flow diagram and unresolved privacy questions.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "1.04.1",
+            "hours": 1,
+            "task": "Document search inputs, USPTO/browser fetches, Kafka messages, local files, geolocation, and generated reports."
+          },
+          {
+            "wbs": "1.04.2",
+            "hours": 3,
+            "task": "Mark trust boundaries, data owners, retention assumptions, and recovery dependencies."
+          },
+          {
+            "wbs": "1.04.3",
+            "hours": 1,
+            "task": "Verify \"Trace data flows and storage\" against acceptance evidence: Data-flow diagram and unresolved privacy questions."
+          },
+          {
+            "wbs": "1.04.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Trace data flows and storage\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "1",
+        "phaseName": "Discovery, inventory, and acceptance baseline",
+        "wbs": "1.05",
+        "task": "Audit dependencies, assets, and licenses",
+        "expectedDeliverable": "Dependency/asset/license register.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "1.05.1",
+            "hours": 1,
+            "task": "Classify first-party code, node_modules, example collections, binary datasets, and licensing obligations."
+          },
+          {
+            "wbs": "1.05.2",
+            "hours": 3,
+            "task": "Create an allowlist for migration candidates; quarantine uncertain assets from the integration plan."
+          },
+          {
+            "wbs": "1.05.3",
+            "hours": 1,
+            "task": "Verify \"Audit dependencies, assets, and licenses\" against acceptance evidence: Dependency/asset/license register."
+          },
+          {
+            "wbs": "1.05.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Audit dependencies, assets, and licenses\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-26",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "1",
+        "phaseName": "Discovery, inventory, and acceptance baseline",
+        "wbs": "1.06",
+        "task": "Define user stories and acceptance criteria",
+        "expectedDeliverable": "Prioritized acceptance checklist.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "1.06.1",
+            "hours": 1,
+            "task": "Write measurable success and failure criteria for search, results, analysis, persistence, and operations."
+          },
+          {
+            "wbs": "1.06.2",
+            "hours": 3,
+            "task": "Review criteria for testability, accessibility, privacy, and observable evidence."
+          },
+          {
+            "wbs": "1.06.3",
+            "hours": 1,
+            "task": "Verify \"Define user stories and acceptance criteria\" against acceptance evidence: Prioritized acceptance checklist."
+          },
+          {
+            "wbs": "1.06.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Define user stories and acceptance criteria\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-27",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "1",
+        "phaseName": "Discovery, inventory, and acceptance baseline",
+        "wbs": "1.07",
+        "task": "Assess runtime and deployment constraints",
+        "expectedDeliverable": "Runtime/deployment constraint register.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "1.07.1",
+            "hours": 1,
+            "task": "Compare Node versions, environment variables, Render service types, browser automation, and Kafka requirements."
+          },
+          {
+            "wbs": "1.07.2",
+            "hours": 3,
+            "task": "Run a deployment feasibility review and document infrastructure decisions still requiring approval."
+          },
+          {
+            "wbs": "1.07.3",
+            "hours": 1,
+            "task": "Verify \"Assess runtime and deployment constraints\" against acceptance evidence: Runtime/deployment constraint register."
+          },
+          {
+            "wbs": "1.07.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Assess runtime and deployment constraints\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "1",
+        "phaseName": "Discovery, inventory, and acceptance baseline",
+        "wbs": "1.08",
+        "task": "Approve baseline and migration decision record",
+        "expectedDeliverable": "Discovery sign-off package and decision log.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "1.08.1",
+            "hours": 1,
+            "task": "Consolidate scope, risks, constraints, acceptance criteria, and candidate sequence into a review package."
+          },
+          {
+            "wbs": "1.08.2",
+            "hours": 3,
+            "task": "Record decisions, open questions, owners, and go/no-go conditions for architecture work."
+          },
+          {
+            "wbs": "1.08.3",
+            "hours": 1,
+            "task": "Verify \"Approve baseline and migration decision record\" against acceptance evidence: Discovery sign-off package and decision log."
+          },
+          {
+            "wbs": "1.08.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Approve baseline and migration decision record\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "weekday": "Monday",
+        "hours": 8,
+        "phaseId": "2",
+        "phaseName": "Target architecture and integration foundation",
+        "wbs": "2.01",
+        "task": "Select integration boundary",
+        "expectedDeliverable": "Architecture decision record.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "2.01.1",
+            "hours": 2,
+            "task": "Compare a unified Node service, separately deployed API, and staged integration options against existing Render hosting."
+          },
+          {
+            "wbs": "2.01.2",
+            "hours": 4,
+            "task": "Choose a reversible boundary that preserves the static site while documenting backend hosting needs."
+          },
+          {
+            "wbs": "2.01.3",
+            "hours": 1,
+            "task": "Verify \"Select integration boundary\" against acceptance evidence: Architecture decision record."
+          },
+          {
+            "wbs": "2.01.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Select integration boundary\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-03",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "2",
+        "phaseName": "Target architecture and integration foundation",
+        "wbs": "2.02",
+        "task": "Design repository and module layout",
+        "expectedDeliverable": "Target repository layout and ownership map.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "2.02.1",
+            "hours": 1,
+            "task": "Specify where shared site content, API routes, UI assets, configuration, tests, and operational docs will live."
+          },
+          {
+            "wbs": "2.02.2",
+            "hours": 3,
+            "task": "Validate module ownership and build inputs against the current static builder."
+          },
+          {
+            "wbs": "2.02.3",
+            "hours": 1,
+            "task": "Verify \"Design repository and module layout\" against acceptance evidence: Target repository layout and ownership map."
+          },
+          {
+            "wbs": "2.02.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Design repository and module layout\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-04",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "2",
+        "phaseName": "Target architecture and integration foundation",
+        "wbs": "2.03",
+        "task": "Define API contracts",
+        "expectedDeliverable": "API contract specification.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "2.03.1",
+            "hours": 1,
+            "task": "Specify versioned request, response, pagination, status, and error contracts for search, results, analysis, and health."
+          },
+          {
+            "wbs": "2.03.2",
+            "hours": 3,
+            "task": "Add contract examples for valid inputs and stable error cases."
+          },
+          {
+            "wbs": "2.03.3",
+            "hours": 1,
+            "task": "Verify \"Define API contracts\" against acceptance evidence: API contract specification."
+          },
+          {
+            "wbs": "2.03.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Define API contracts\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-09",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "2",
+        "phaseName": "Target architecture and integration foundation",
+        "wbs": "2.04",
+        "task": "Design persistence schema and migration policy",
+        "expectedDeliverable": "Initial data model and migration policy.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "2.04.1",
+            "hours": 1,
+            "task": "Identify entities, stable identifiers, timestamps, relationships, retention needs, and migration safeguards."
+          },
+          {
+            "wbs": "2.04.2",
+            "hours": 3,
+            "task": "Review schema changes for idempotence, reversibility, and privacy minimization."
+          },
+          {
+            "wbs": "2.04.3",
+            "hours": 1,
+            "task": "Verify \"Design persistence schema and migration policy\" against acceptance evidence: Initial data model and migration policy."
+          },
+          {
+            "wbs": "2.04.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Design persistence schema and migration policy\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-10",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "2",
+        "phaseName": "Target architecture and integration foundation",
+        "wbs": "2.05",
+        "task": "Design job/queue boundary",
+        "expectedDeliverable": "Queue decision and job lifecycle.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "2.05.1",
+            "hours": 1,
+            "task": "Define which tasks are synchronous and which require background processing, retries, deduplication, or dead-letter handling."
+          },
+          {
+            "wbs": "2.05.2",
+            "hours": 3,
+            "task": "Compare Kafka dependency against a simpler deployment-compatible alternative without assuming infrastructure."
+          },
+          {
+            "wbs": "2.05.3",
+            "hours": 1,
+            "task": "Verify \"Design job/queue boundary\" against acceptance evidence: Queue decision and job lifecycle."
+          },
+          {
+            "wbs": "2.05.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Design job/queue boundary\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "2",
+        "phaseName": "Target architecture and integration foundation",
+        "wbs": "2.06",
+        "task": "Establish environment and secret model",
+        "expectedDeliverable": "Environment variable inventory and handling rules.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "2.06.1",
+            "hours": 1,
+            "task": "Separate public client configuration from server credentials, provider keys, and deployment-only settings."
+          },
+          {
+            "wbs": "2.06.2",
+            "hours": 3,
+            "task": "Verify no secret is emitted to static assets or checked-in example configuration."
+          },
+          {
+            "wbs": "2.06.3",
+            "hours": 1,
+            "task": "Verify \"Establish environment and secret model\" against acceptance evidence: Environment variable inventory and handling rules."
+          },
+          {
+            "wbs": "2.06.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Establish environment and secret model\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "2",
+        "phaseName": "Target architecture and integration foundation",
+        "wbs": "2.07",
+        "task": "Add integrated developer workflow",
+        "expectedDeliverable": "Repeatable local developer instructions.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "2.07.1",
+            "hours": 1,
+            "task": "Define install, build, lint/test, local run, and service dependency commands with deterministic behavior."
+          },
+          {
+            "wbs": "2.07.2",
+            "hours": 3,
+            "task": "Run clean setup and document prerequisites and expected checks."
+          },
+          {
+            "wbs": "2.07.3",
+            "hours": 1,
+            "task": "Verify \"Add integrated developer workflow\" against acceptance evidence: Repeatable local developer instructions."
+          },
+          {
+            "wbs": "2.07.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Add integrated developer workflow\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "2",
+        "phaseName": "Target architecture and integration foundation",
+        "wbs": "2.08",
+        "task": "Create observability and test scaffolding",
+        "expectedDeliverable": "Logging, health, and test design baseline.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "2.08.1",
+            "hours": 1,
+            "task": "Define structured event fields, correlation identifiers, health checks, and test seams for external providers."
+          },
+          {
+            "wbs": "2.08.2",
+            "hours": 3,
+            "task": "Add conventions for redaction and deterministic provider stubs."
+          },
+          {
+            "wbs": "2.08.3",
+            "hours": 1,
+            "task": "Verify \"Create observability and test scaffolding\" against acceptance evidence: Logging, health, and test design baseline."
+          },
+          {
+            "wbs": "2.08.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Create observability and test scaffolding\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "2",
+        "phaseName": "Target architecture and integration foundation",
+        "wbs": "2.09",
+        "task": "Review and baseline target architecture",
+        "expectedDeliverable": "Reviewed architecture baseline and decision log.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "2.09.1",
+            "hours": 1,
+            "task": "Walk through architecture, data flow, hosting, operational cost, and failure recovery with acceptance owners."
+          },
+          {
+            "wbs": "2.09.2",
+            "hours": 3,
+            "task": "Resolve blocking decisions or record explicit deferrals before feature migration."
+          },
+          {
+            "wbs": "2.09.3",
+            "hours": 1,
+            "task": "Verify \"Review and baseline target architecture\" against acceptance evidence: Reviewed architecture baseline and decision log."
+          },
+          {
+            "wbs": "2.09.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Review and baseline target architecture\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-23",
+        "weekday": "Monday",
+        "hours": 8,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.01",
+        "task": "Port and isolate search request validation",
+        "expectedDeliverable": "Validated search request boundary.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.01.1",
+            "hours": 2,
+            "task": "Define allowed query fields, lengths, normalization, invalid-input responses, and safe logging rules."
+          },
+          {
+            "wbs": "3.01.2",
+            "hours": 4,
+            "task": "Add focused tests for valid, empty, oversized, malformed, and Unicode queries."
+          },
+          {
+            "wbs": "3.01.3",
+            "hours": 1,
+            "task": "Verify \"Port and isolate search request validation\" against acceptance evidence: Validated search request boundary."
+          },
+          {
+            "wbs": "3.01.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Port and isolate search request validation\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-24",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.02",
+        "task": "Implement USPTO client adapter",
+        "expectedDeliverable": "Testable USPTO adapter.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.02.1",
+            "hours": 1,
+            "task": "Wrap current USPTO API access behind a provider interface with explicit timeout and response handling."
+          },
+          {
+            "wbs": "3.02.2",
+            "hours": 3,
+            "task": "Use deterministic fixtures to verify status, schema, and provider-error mapping."
+          },
+          {
+            "wbs": "3.02.3",
+            "hours": 1,
+            "task": "Verify \"Implement USPTO client adapter\" against acceptance evidence: Testable USPTO adapter."
+          },
+          {
+            "wbs": "3.02.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement USPTO client adapter\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-25",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.03",
+        "task": "Review browser automation fallback",
+        "expectedDeliverable": "Documented browser-provider adapter and risks.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.03.1",
+            "hours": 1,
+            "task": "Trace Puppeteer navigation, selectors, rate limiting, browser binary, and current upstream assumptions."
+          },
+          {
+            "wbs": "3.03.2",
+            "hours": 3,
+            "task": "Fence automation behind the same provider contract and establish an explicit fallback policy."
+          },
+          {
+            "wbs": "3.03.3",
+            "hours": 1,
+            "task": "Verify \"Review browser automation fallback\" against acceptance evidence: Documented browser-provider adapter and risks."
+          },
+          {
+            "wbs": "3.03.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Review browser automation fallback\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-30",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.04",
+        "task": "Normalize patent result identifiers",
+        "expectedDeliverable": "Canonical patent record mapper.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.04.1",
+            "hours": 1,
+            "task": "Map application/publication/patent identifiers and core metadata into a canonical internal record."
+          },
+          {
+            "wbs": "3.04.2",
+            "hours": 3,
+            "task": "Test representative identifiers and missing/variant provider field names."
+          },
+          {
+            "wbs": "3.04.3",
+            "hours": 1,
+            "task": "Verify \"Normalize patent result identifiers\" against acceptance evidence: Canonical patent record mapper."
+          },
+          {
+            "wbs": "3.04.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Normalize patent result identifiers\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-01",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.05",
+        "task": "Integrate search route and service boundary",
+        "expectedDeliverable": "Integrated search API route.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.05.1",
+            "hours": 1,
+            "task": "Connect the UI-facing search endpoint to the provider adapter and normalized service response."
+          },
+          {
+            "wbs": "3.05.2",
+            "hours": 3,
+            "task": "Exercise route-level status codes, serialization, and provider error propagation."
+          },
+          {
+            "wbs": "3.05.3",
+            "hours": 1,
+            "task": "Verify \"Integrate search route and service boundary\" against acceptance evidence: Integrated search API route."
+          },
+          {
+            "wbs": "3.05.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Integrate search route and service boundary\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-02",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.06",
+        "task": "Implement pagination and bounded result handling",
+        "expectedDeliverable": "Bounded and predictable result pagination.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.06.1",
+            "hours": 1,
+            "task": "Define maximum page size, continuation behavior, provider limits, and partial-result indicators."
+          },
+          {
+            "wbs": "3.06.2",
+            "hours": 3,
+            "task": "Verify bounds, duplicate pages, no-results, and continuation exhaustion."
+          },
+          {
+            "wbs": "3.06.3",
+            "hours": 1,
+            "task": "Verify \"Implement pagination and bounded result handling\" against acceptance evidence: Bounded and predictable result pagination."
+          },
+          {
+            "wbs": "3.06.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement pagination and bounded result handling\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-07",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.07",
+        "task": "Implement throttling and upstream timeout behavior",
+        "expectedDeliverable": "Resilient provider request policy.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.07.1",
+            "hours": 1,
+            "task": "Set explicit request deadlines, concurrency controls, and rate-limit responses for external search calls."
+          },
+          {
+            "wbs": "3.07.2",
+            "hours": 3,
+            "task": "Test timeout, throttling, retry eligibility, and cancellation behavior."
+          },
+          {
+            "wbs": "3.07.3",
+            "hours": 1,
+            "task": "Verify \"Implement throttling and upstream timeout behavior\" against acceptance evidence: Resilient provider request policy."
+          },
+          {
+            "wbs": "3.07.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement throttling and upstream timeout behavior\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-08",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.08",
+        "task": "Connect results view to normalized records",
+        "expectedDeliverable": "Integrated search-to-results user journey.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.08.1",
+            "hours": 1,
+            "task": "Replace fixed/demo assumptions in the production path with the integrated search response contract."
+          },
+          {
+            "wbs": "3.08.2",
+            "hours": 3,
+            "task": "Verify loading, empty, successful, partial, and error result states."
+          },
+          {
+            "wbs": "3.08.3",
+            "hours": 1,
+            "task": "Verify \"Connect results view to normalized records\" against acceptance evidence: Integrated search-to-results user journey."
+          },
+          {
+            "wbs": "3.08.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Connect results view to normalized records\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-09",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.09",
+        "task": "Preserve source links and retrieval metadata",
+        "expectedDeliverable": "Traceable source metadata.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.09.1",
+            "hours": 1,
+            "task": "Attach stable provider identifiers, source URLs, retrieval time, and available provenance to result records."
+          },
+          {
+            "wbs": "3.09.2",
+            "hours": 3,
+            "task": "Verify reports and result details can distinguish source fields from derived content."
+          },
+          {
+            "wbs": "3.09.3",
+            "hours": 1,
+            "task": "Verify \"Preserve source links and retrieval metadata\" against acceptance evidence: Traceable source metadata."
+          },
+          {
+            "wbs": "3.09.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Preserve source links and retrieval metadata\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-14",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.10",
+        "task": "Test provider contract and route regression",
+        "expectedDeliverable": "Search integration regression evidence.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.10.1",
+            "hours": 1,
+            "task": "Expand unit and route tests with fixtures for normal responses, malformed responses, and upstream failures."
+          },
+          {
+            "wbs": "3.10.2",
+            "hours": 3,
+            "task": "Run targeted tests and record coverage gaps and external dependencies."
+          },
+          {
+            "wbs": "3.10.3",
+            "hours": 1,
+            "task": "Verify \"Test provider contract and route regression\" against acceptance evidence: Search integration regression evidence."
+          },
+          {
+            "wbs": "3.10.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Test provider contract and route regression\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-15",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.11",
+        "task": "Harden service error boundaries",
+        "expectedDeliverable": "Explicit search failure behavior.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.11.1",
+            "hours": 1,
+            "task": "Ensure expected provider failures produce useful, non-sensitive errors and unexpected faults reach standard logging."
+          },
+          {
+            "wbs": "3.11.2",
+            "hours": 3,
+            "task": "Verify no success-shaped fallback or swallowed failure hides missing patent data."
+          },
+          {
+            "wbs": "3.11.3",
+            "hours": 1,
+            "task": "Verify \"Harden service error boundaries\" against acceptance evidence: Explicit search failure behavior."
+          },
+          {
+            "wbs": "3.11.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Harden service error boundaries\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-16",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "3",
+        "phaseName": "Patent search and core service integration",
+        "wbs": "3.12",
+        "task": "Review search integration acceptance",
+        "expectedDeliverable": "Search feature acceptance record.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "3.12.1",
+            "hours": 1,
+            "task": "Walk through search entry, provider call, normalized response, results display, and failure recovery."
+          },
+          {
+            "wbs": "3.12.2",
+            "hours": 3,
+            "task": "Compare observed results with the acceptance checklist and log unresolved defects."
+          },
+          {
+            "wbs": "3.12.3",
+            "hours": 1,
+            "task": "Verify \"Review search integration acceptance\" against acceptance evidence: Search feature acceptance record."
+          },
+          {
+            "wbs": "3.12.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Review search integration acceptance\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-21",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "4",
+        "phaseName": "Ingestion, background jobs, and persistence",
+        "wbs": "4.01",
+        "task": "Inventory existing data files safely",
+        "expectedDeliverable": "Data disposition and migration inventory.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "4.01.1",
+            "hours": 1,
+            "task": "Identify file-backed records and large datasets by purpose, ownership, sensitivity, and format without publishing their contents."
+          },
+          {
+            "wbs": "4.01.2",
+            "hours": 3,
+            "task": "Decide which data must migrate, remain local, be regenerated, or be excluded."
+          },
+          {
+            "wbs": "4.01.3",
+            "hours": 1,
+            "task": "Verify \"Inventory existing data files safely\" against acceptance evidence: Data disposition and migration inventory."
+          },
+          {
+            "wbs": "4.01.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Inventory existing data files safely\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-22",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "4",
+        "phaseName": "Ingestion, background jobs, and persistence",
+        "wbs": "4.02",
+        "task": "Define persistence interface",
+        "expectedDeliverable": "Persistence adapter contract.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "4.02.1",
+            "hours": 1,
+            "task": "Specify repository operations, transaction expectations, serialization boundaries, and test doubles."
+          },
+          {
+            "wbs": "4.02.2",
+            "hours": 3,
+            "task": "Verify the interface keeps routes independent from the selected persistence engine."
+          },
+          {
+            "wbs": "4.02.3",
+            "hours": 1,
+            "task": "Verify \"Define persistence interface\" against acceptance evidence: Persistence adapter contract."
+          },
+          {
+            "wbs": "4.02.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Define persistence interface\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-23",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "4",
+        "phaseName": "Ingestion, background jobs, and persistence",
+        "wbs": "4.03",
+        "task": "Implement schema/version migration path",
+        "expectedDeliverable": "Repeatable data migration.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "4.03.1",
+            "hours": 1,
+            "task": "Add versioned schema evolution with validation and a documented rollback or restore approach."
+          },
+          {
+            "wbs": "4.03.2",
+            "hours": 3,
+            "task": "Test fresh initialization and sequential upgrade from a representative prior version."
+          },
+          {
+            "wbs": "4.03.3",
+            "hours": 1,
+            "task": "Verify \"Implement schema/version migration path\" against acceptance evidence: Repeatable data migration."
+          },
+          {
+            "wbs": "4.03.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement schema/version migration path\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-28",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "4",
+        "phaseName": "Ingestion, background jobs, and persistence",
+        "wbs": "4.04",
+        "task": "Build idempotent ingestion workflow",
+        "expectedDeliverable": "Idempotent ingestion behavior.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "4.04.1",
+            "hours": 1,
+            "task": "Define stable job keys and duplicate handling for repeated patent-result ingestion."
+          },
+          {
+            "wbs": "4.04.2",
+            "hours": 3,
+            "task": "Replay the same fixture twice and verify the second run does not corrupt or duplicate state."
+          },
+          {
+            "wbs": "4.04.3",
+            "hours": 1,
+            "task": "Verify \"Build idempotent ingestion workflow\" against acceptance evidence: Idempotent ingestion behavior."
+          },
+          {
+            "wbs": "4.04.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Build idempotent ingestion workflow\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-29",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "4",
+        "phaseName": "Ingestion, background jobs, and persistence",
+        "wbs": "4.05",
+        "task": "Implement bounded job state transitions",
+        "expectedDeliverable": "Explicit job lifecycle model.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "4.05.1",
+            "hours": 1,
+            "task": "Represent queued, running, completed, retryable-failure, and terminal-failure states with timestamps."
+          },
+          {
+            "wbs": "4.05.2",
+            "hours": 3,
+            "task": "Test legal transitions and reject invalid state changes."
+          },
+          {
+            "wbs": "4.05.3",
+            "hours": 1,
+            "task": "Verify \"Implement bounded job state transitions\" against acceptance evidence: Explicit job lifecycle model."
+          },
+          {
+            "wbs": "4.05.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement bounded job state transitions\"."
+          }
+        ]
+      },
+      {
+        "date": "2026-12-30",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "4",
+        "phaseName": "Ingestion, background jobs, and persistence",
+        "wbs": "4.06",
+        "task": "Add retry and dead-letter policy",
+        "expectedDeliverable": "Recoverable background processing policy.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "4.06.1",
+            "hours": 1,
+            "task": "Specify capped retry/backoff rules and operator-visible handling for exhausted jobs."
+          },
+          {
+            "wbs": "4.06.2",
+            "hours": 3,
+            "task": "Simulate provider outage and confirm bounded retries and actionable terminal status."
+          },
+          {
+            "wbs": "4.06.3",
+            "hours": 1,
+            "task": "Verify \"Add retry and dead-letter policy\" against acceptance evidence: Recoverable background processing policy."
+          },
+          {
+            "wbs": "4.06.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Add retry and dead-letter policy\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-04",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "4",
+        "phaseName": "Ingestion, background jobs, and persistence",
+        "wbs": "4.07",
+        "task": "Connect persistence to results and analysis",
+        "expectedDeliverable": "Integrated stored-result workflow.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "4.07.1",
+            "hours": 1,
+            "task": "Persist only required records and link each record to its provenance and job status."
+          },
+          {
+            "wbs": "4.07.2",
+            "hours": 3,
+            "task": "Verify reads are authorization-safe and stale/incomplete records are surfaced accurately."
+          },
+          {
+            "wbs": "4.07.3",
+            "hours": 1,
+            "task": "Verify \"Connect persistence to results and analysis\" against acceptance evidence: Integrated stored-result workflow."
+          },
+          {
+            "wbs": "4.07.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Connect persistence to results and analysis\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-05",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "4",
+        "phaseName": "Ingestion, background jobs, and persistence",
+        "wbs": "4.08",
+        "task": "Implement retention and export/restore controls",
+        "expectedDeliverable": "Retention and recovery runbook.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "4.08.1",
+            "hours": 1,
+            "task": "Document retention defaults, delete/export requirements, backup scope, and restore validation."
+          },
+          {
+            "wbs": "4.08.2",
+            "hours": 3,
+            "task": "Test a representative backup/restore round trip without exposing real user data."
+          },
+          {
+            "wbs": "4.08.3",
+            "hours": 1,
+            "task": "Verify \"Implement retention and export/restore controls\" against acceptance evidence: Retention and recovery runbook."
+          },
+          {
+            "wbs": "4.08.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement retention and export/restore controls\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-06",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "4",
+        "phaseName": "Ingestion, background jobs, and persistence",
+        "wbs": "4.09",
+        "task": "Validate ingestion and persistence acceptance",
+        "expectedDeliverable": "Ingestion/persistence acceptance evidence.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "4.09.1",
+            "hours": 1,
+            "task": "Run failure, duplicate, restart, and migration scenarios against the agreed data model."
+          },
+          {
+            "wbs": "4.09.2",
+            "hours": 3,
+            "task": "Capture test evidence and unresolved data integrity risks."
+          },
+          {
+            "wbs": "4.09.3",
+            "hours": 1,
+            "task": "Verify \"Validate ingestion and persistence acceptance\" against acceptance evidence: Ingestion/persistence acceptance evidence."
+          },
+          {
+            "wbs": "4.09.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Validate ingestion and persistence acceptance\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-11",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.01",
+        "task": "Define analysis inputs and evidence contract",
+        "expectedDeliverable": "Evidence-aware analysis input contract.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.01.1",
+            "hours": 1,
+            "task": "Separate original patent fields, retrieved source material, model instructions, and derived interpretations."
+          },
+          {
+            "wbs": "5.01.2",
+            "hours": 3,
+            "task": "Reject or flag analysis requests with missing provenance or invalid source records."
+          },
+          {
+            "wbs": "5.01.3",
+            "hours": 1,
+            "task": "Verify \"Define analysis inputs and evidence contract\" against acceptance evidence: Evidence-aware analysis input contract."
+          },
+          {
+            "wbs": "5.01.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Define analysis inputs and evidence contract\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-12",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.02",
+        "task": "Isolate model/provider configuration",
+        "expectedDeliverable": "Model provider adapter and configuration policy.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.02.1",
+            "hours": 1,
+            "task": "Define server-side provider selection, timeout, error, and key boundaries without exposing credentials to clients."
+          },
+          {
+            "wbs": "5.02.2",
+            "hours": 3,
+            "task": "Test provider unavailability and configuration errors explicitly."
+          },
+          {
+            "wbs": "5.02.3",
+            "hours": 1,
+            "task": "Verify \"Isolate model/provider configuration\" against acceptance evidence: Model provider adapter and configuration policy."
+          },
+          {
+            "wbs": "5.02.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Isolate model/provider configuration\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-13",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.03",
+        "task": "Implement analysis job orchestration",
+        "expectedDeliverable": "Traceable analysis job flow.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.03.1",
+            "hours": 1,
+            "task": "Connect eligible persisted records to bounded analysis steps and explicit per-stage status."
+          },
+          {
+            "wbs": "5.03.2",
+            "hours": 3,
+            "task": "Verify stage order, cancellation, partial failure, and replay handling."
+          },
+          {
+            "wbs": "5.03.3",
+            "hours": 1,
+            "task": "Verify \"Implement analysis job orchestration\" against acceptance evidence: Traceable analysis job flow."
+          },
+          {
+            "wbs": "5.03.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement analysis job orchestration\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-18",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.04",
+        "task": "Add source-grounded output structure",
+        "expectedDeliverable": "Structured source-grounded report format.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.04.1",
+            "hours": 1,
+            "task": "Require output sections to identify source facts, inferred analysis, confidence/limitations, and citations where supported."
+          },
+          {
+            "wbs": "5.04.2",
+            "hours": 3,
+            "task": "Test that missing evidence is reported rather than filled with fabricated patent facts."
+          },
+          {
+            "wbs": "5.04.3",
+            "hours": 1,
+            "task": "Verify \"Add source-grounded output structure\" against acceptance evidence: Structured source-grounded report format."
+          },
+          {
+            "wbs": "5.04.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Add source-grounded output structure\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-19",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.05",
+        "task": "Implement report generation and retrieval",
+        "expectedDeliverable": "Versioned report artifact flow.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.05.1",
+            "hours": 1,
+            "task": "Generate a stable report artifact linked to its input record, model/provider metadata, and creation time."
+          },
+          {
+            "wbs": "5.05.2",
+            "hours": 3,
+            "task": "Verify report retrieval and invalid/missing report error behavior."
+          },
+          {
+            "wbs": "5.05.3",
+            "hours": 1,
+            "task": "Verify \"Implement report generation and retrieval\" against acceptance evidence: Versioned report artifact flow."
+          },
+          {
+            "wbs": "5.05.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement report generation and retrieval\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-20",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.06",
+        "task": "Add safeguards for unsupported advice",
+        "expectedDeliverable": "Output-safety review checklist and tests.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.06.1",
+            "hours": 1,
+            "task": "Ensure report wording does not present experimental AI output as legal, medical, or investment advice."
+          },
+          {
+            "wbs": "5.06.2",
+            "hours": 3,
+            "task": "Review representative outputs for unsupported certainty and escalation language."
+          },
+          {
+            "wbs": "5.06.3",
+            "hours": 1,
+            "task": "Verify \"Add safeguards for unsupported advice\" against acceptance evidence: Output-safety review checklist and tests."
+          },
+          {
+            "wbs": "5.06.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Add safeguards for unsupported advice\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-25",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.07",
+        "task": "Handle analysis limits and provider failures",
+        "expectedDeliverable": "Bounded analysis request behavior.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.07.1",
+            "hours": 1,
+            "task": "Add explicit token/size bounds, timeout handling, and retry policy for model requests."
+          },
+          {
+            "wbs": "5.07.2",
+            "hours": 3,
+            "task": "Test oversized inputs and upstream failures without losing source records."
+          },
+          {
+            "wbs": "5.07.3",
+            "hours": 1,
+            "task": "Verify \"Handle analysis limits and provider failures\" against acceptance evidence: Bounded analysis request behavior."
+          },
+          {
+            "wbs": "5.07.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Handle analysis limits and provider failures\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-26",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.08",
+        "task": "Build review and correction workflow",
+        "expectedDeliverable": "Human review and correction path.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.08.1",
+            "hours": 1,
+            "task": "Allow users to inspect cited source material and distinguish, correct, or reject generated interpretations."
+          },
+          {
+            "wbs": "5.08.2",
+            "hours": 3,
+            "task": "Test that corrected/rejected outputs do not overwrite immutable source data."
+          },
+          {
+            "wbs": "5.08.3",
+            "hours": 1,
+            "task": "Verify \"Build review and correction workflow\" against acceptance evidence: Human review and correction path."
+          },
+          {
+            "wbs": "5.08.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Build review and correction workflow\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-27",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.09",
+        "task": "Add audit metadata and reproducibility cues",
+        "expectedDeliverable": "Auditable analysis metadata.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.09.1",
+            "hours": 1,
+            "task": "Record safe model/version, prompt template version, source IDs, run time, and non-sensitive status data."
+          },
+          {
+            "wbs": "5.09.2",
+            "hours": 3,
+            "task": "Check logs/reports for unnecessary secrets or personal data."
+          },
+          {
+            "wbs": "5.09.3",
+            "hours": 1,
+            "task": "Verify \"Add audit metadata and reproducibility cues\" against acceptance evidence: Auditable analysis metadata."
+          },
+          {
+            "wbs": "5.09.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Add audit metadata and reproducibility cues\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-01",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.10",
+        "task": "Test analysis behavior with fixtures",
+        "expectedDeliverable": "Analysis regression suite.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.10.1",
+            "hours": 1,
+            "task": "Use deterministic fixtures for complete evidence, conflicting sources, empty records, and model failure."
+          },
+          {
+            "wbs": "5.10.2",
+            "hours": 3,
+            "task": "Assert truthful uncertainty and stable serialization in each case."
+          },
+          {
+            "wbs": "5.10.3",
+            "hours": 1,
+            "task": "Verify \"Test analysis behavior with fixtures\" against acceptance evidence: Analysis regression suite."
+          },
+          {
+            "wbs": "5.10.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Test analysis behavior with fixtures\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-02",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "5",
+        "phaseName": "AI analysis and report workflow",
+        "wbs": "5.11",
+        "task": "Review report acceptance and safeguards",
+        "expectedDeliverable": "Analysis/report acceptance record.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "5.11.1",
+            "hours": 1,
+            "task": "Demonstrate the end-to-end search-to-report journey against product criteria and safety expectations."
+          },
+          {
+            "wbs": "5.11.2",
+            "hours": 3,
+            "task": "Capture acceptance evidence and any release-blocking limitations."
+          },
+          {
+            "wbs": "5.11.3",
+            "hours": 1,
+            "task": "Verify \"Review report acceptance and safeguards\" against acceptance evidence: Analysis/report acceptance record."
+          },
+          {
+            "wbs": "5.11.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Review report acceptance and safeguards\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-03",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.01",
+        "task": "Design unified navigation and page hierarchy",
+        "expectedDeliverable": "Unified navigation specification.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.01.1",
+            "hours": 1,
+            "task": "Map site pages and application workflows into a consistent route and navigation structure."
+          },
+          {
+            "wbs": "6.01.2",
+            "hours": 3,
+            "task": "Review page labels, active states, and direct-link behavior."
+          },
+          {
+            "wbs": "6.01.3",
+            "hours": 1,
+            "task": "Verify \"Design unified navigation and page hierarchy\" against acceptance evidence: Unified navigation specification."
+          },
+          {
+            "wbs": "6.01.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Design unified navigation and page hierarchy\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-08",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.02",
+        "task": "Implement search workflow interface",
+        "expectedDeliverable": "Accessible search interface.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.02.1",
+            "hours": 1,
+            "task": "Build accessible query inputs, clear actions, validation feedback, and keyboard-operable submission."
+          },
+          {
+            "wbs": "6.02.2",
+            "hours": 3,
+            "task": "Test keyboard-only use and screen-reader labels for the search form."
+          },
+          {
+            "wbs": "6.02.3",
+            "hours": 1,
+            "task": "Verify \"Implement search workflow interface\" against acceptance evidence: Accessible search interface."
+          },
+          {
+            "wbs": "6.02.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement search workflow interface\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-09",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.03",
+        "task": "Integrate result list and detail presentation",
+        "expectedDeliverable": "Responsive result list/detail view.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.03.1",
+            "hours": 1,
+            "task": "Show normalized identifiers, source links, retrieval state, and key result fields with clear grouping."
+          },
+          {
+            "wbs": "6.03.2",
+            "hours": 3,
+            "task": "Check responsive display and long identifier/content wrapping."
+          },
+          {
+            "wbs": "6.03.3",
+            "hours": 1,
+            "task": "Verify \"Integrate result list and detail presentation\" against acceptance evidence: Responsive result list/detail view."
+          },
+          {
+            "wbs": "6.03.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Integrate result list and detail presentation\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-10",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.04",
+        "task": "Implement status, error, empty, and partial states",
+        "expectedDeliverable": "Complete asynchronous state handling.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.04.1",
+            "hours": 1,
+            "task": "Provide consistent feedback for loading, zero results, provider errors, partial results, and retryable failures."
+          },
+          {
+            "wbs": "6.04.2",
+            "hours": 3,
+            "task": "Verify status announcements and recovery actions are keyboard reachable."
+          },
+          {
+            "wbs": "6.04.3",
+            "hours": 1,
+            "task": "Verify \"Implement status, error, empty, and partial states\" against acceptance evidence: Complete asynchronous state handling."
+          },
+          {
+            "wbs": "6.04.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Implement status, error, empty, and partial states\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-15",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.05",
+        "task": "Build analysis/report review screens",
+        "expectedDeliverable": "Reviewable analysis/report UI.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.05.1",
+            "hours": 1,
+            "task": "Expose source evidence beside derived report sections and provide clear review/correction affordances."
+          },
+          {
+            "wbs": "6.05.2",
+            "hours": 3,
+            "task": "Confirm users can distinguish retrieved facts from generated interpretation."
+          },
+          {
+            "wbs": "6.05.3",
+            "hours": 1,
+            "task": "Verify \"Build analysis/report review screens\" against acceptance evidence: Reviewable analysis/report UI."
+          },
+          {
+            "wbs": "6.05.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Build analysis/report review screens\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-16",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.06",
+        "task": "Integrate public site styling and components",
+        "expectedDeliverable": "Consistent integrated design system.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.06.1",
+            "hours": 1,
+            "task": "Reuse compatible NationalAI components and tokens without breaking the existing nonprofit content pages."
+          },
+          {
+            "wbs": "6.06.2",
+            "hours": 3,
+            "task": "Run visual/content regressions over every current destination route."
+          },
+          {
+            "wbs": "6.06.3",
+            "hours": 1,
+            "task": "Verify \"Integrate public site styling and components\" against acceptance evidence: Consistent integrated design system."
+          },
+          {
+            "wbs": "6.06.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Integrate public site styling and components\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-17",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.07",
+        "task": "Add responsive layout and touch behavior",
+        "expectedDeliverable": "Responsive layout checks.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.07.1",
+            "hours": 1,
+            "task": "Review narrow, medium, and wide layouts for search, result, report, and navigation pages."
+          },
+          {
+            "wbs": "6.07.2",
+            "hours": 3,
+            "task": "Verify no horizontal overflow and controls remain usable at supported viewport sizes."
+          },
+          {
+            "wbs": "6.07.3",
+            "hours": 1,
+            "task": "Verify \"Add responsive layout and touch behavior\" against acceptance evidence: Responsive layout checks."
+          },
+          {
+            "wbs": "6.07.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Add responsive layout and touch behavior\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-22",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.08",
+        "task": "Audit accessibility semantics and focus",
+        "expectedDeliverable": "Accessibility findings and remediations.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.08.1",
+            "hours": 1,
+            "task": "Review heading order, landmarks, labels, contrast tokens, skip links, focus visibility, and reduced-motion behavior."
+          },
+          {
+            "wbs": "6.08.2",
+            "hours": 3,
+            "task": "Run automated accessibility checks and manual keyboard walkthrough."
+          },
+          {
+            "wbs": "6.08.3",
+            "hours": 1,
+            "task": "Verify \"Audit accessibility semantics and focus\" against acceptance evidence: Accessibility findings and remediations."
+          },
+          {
+            "wbs": "6.08.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Audit accessibility semantics and focus\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-23",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.09",
+        "task": "Review content clarity and privacy notices",
+        "expectedDeliverable": "Reviewed user-facing explanatory copy.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.09.1",
+            "hours": 1,
+            "task": "Clarify search scope, data handling, generated content limitations, and user expectations at relevant points."
+          },
+          {
+            "wbs": "6.09.2",
+            "hours": 3,
+            "task": "Verify notice wording is readable and does not imply unsupported capabilities."
+          },
+          {
+            "wbs": "6.09.3",
+            "hours": 1,
+            "task": "Verify \"Review content clarity and privacy notices\" against acceptance evidence: Reviewed user-facing explanatory copy."
+          },
+          {
+            "wbs": "6.09.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Review content clarity and privacy notices\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-02-24",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "6",
+        "phaseName": "Integrated user experience and accessibility",
+        "wbs": "6.10",
+        "task": "Run end-to-end UX acceptance",
+        "expectedDeliverable": "UX acceptance notes and defect list.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "6.10.1",
+            "hours": 1,
+            "task": "Walk through first visit, search, result review, analysis, failure recovery, and returning navigation."
+          },
+          {
+            "wbs": "6.10.2",
+            "hours": 3,
+            "task": "Log defects by severity and identify any usability release blockers."
+          },
+          {
+            "wbs": "6.10.3",
+            "hours": 1,
+            "task": "Verify \"Run end-to-end UX acceptance\" against acceptance evidence: UX acceptance notes and defect list."
+          },
+          {
+            "wbs": "6.10.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Run end-to-end UX acceptance\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-01",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "7",
+        "phaseName": "Security, privacy, reliability, and performance",
+        "wbs": "7.01",
+        "task": "Review credentials and deployment secrets",
+        "expectedDeliverable": "Secret-handling verification.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "7.01.1",
+            "hours": 1,
+            "task": "Inspect configuration flows for provider keys and ensure sensitive values remain server-side."
+          },
+          {
+            "wbs": "7.01.2",
+            "hours": 3,
+            "task": "Verify clean builds contain no secret values and startup fails clearly for required missing configuration."
+          },
+          {
+            "wbs": "7.01.3",
+            "hours": 1,
+            "task": "Verify \"Review credentials and deployment secrets\" against acceptance evidence: Secret-handling verification."
+          },
+          {
+            "wbs": "7.01.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Review credentials and deployment secrets\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-02",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "7",
+        "phaseName": "Security, privacy, reliability, and performance",
+        "wbs": "7.02",
+        "task": "Review HTTP boundaries and browser protections",
+        "expectedDeliverable": "HTTP/browser security configuration.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "7.02.1",
+            "hours": 1,
+            "task": "Assess CORS, security headers, content policy, static asset exposure, and cross-origin requirements."
+          },
+          {
+            "wbs": "7.02.2",
+            "hours": 3,
+            "task": "Test allowed/disallowed origins and validate deployed header configuration."
+          },
+          {
+            "wbs": "7.02.3",
+            "hours": 1,
+            "task": "Verify \"Review HTTP boundaries and browser protections\" against acceptance evidence: HTTP/browser security configuration."
+          },
+          {
+            "wbs": "7.02.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Review HTTP boundaries and browser protections\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-03",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "7",
+        "phaseName": "Security, privacy, reliability, and performance",
+        "wbs": "7.03",
+        "task": "Validate input, output, and file boundaries",
+        "expectedDeliverable": "Input/output boundary test evidence.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "7.03.1",
+            "hours": 1,
+            "task": "Review route schemas, output encoding, file names/paths, and untrusted provider/model content."
+          },
+          {
+            "wbs": "7.03.2",
+            "hours": 3,
+            "task": "Add negative tests for malformed values and unsafe output contexts."
+          },
+          {
+            "wbs": "7.03.3",
+            "hours": 1,
+            "task": "Verify \"Validate input, output, and file boundaries\" against acceptance evidence: Input/output boundary test evidence."
+          },
+          {
+            "wbs": "7.03.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Validate input, output, and file boundaries\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-08",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "7",
+        "phaseName": "Security, privacy, reliability, and performance",
+        "wbs": "7.04",
+        "task": "Review personal and geolocation data handling",
+        "expectedDeliverable": "Data minimization and access review.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "7.04.1",
+            "hours": 1,
+            "task": "Inventory collection and access paths, minimize fields, set purpose/retention rules, and prevent accidental publication."
+          },
+          {
+            "wbs": "7.04.2",
+            "hours": 3,
+            "task": "Test that public/client output and routine logs exclude restricted data."
+          },
+          {
+            "wbs": "7.04.3",
+            "hours": 1,
+            "task": "Verify \"Review personal and geolocation data handling\" against acceptance evidence: Data minimization and access review."
+          },
+          {
+            "wbs": "7.04.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Review personal and geolocation data handling\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-09",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "7",
+        "phaseName": "Security, privacy, reliability, and performance",
+        "wbs": "7.05",
+        "task": "Assess dependency and license risk",
+        "expectedDeliverable": "Dependency risk register.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "7.05.1",
+            "hours": 1,
+            "task": "Scan the selected application dependency set and review direct/transitive licenses and known vulnerabilities."
+          },
+          {
+            "wbs": "7.05.2",
+            "hours": 3,
+            "task": "Document actionable updates, compatibility tests, and any accepted temporary risk."
+          },
+          {
+            "wbs": "7.05.3",
+            "hours": 1,
+            "task": "Verify \"Assess dependency and license risk\" against acceptance evidence: Dependency risk register."
+          },
+          {
+            "wbs": "7.05.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Assess dependency and license risk\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-10",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "7",
+        "phaseName": "Security, privacy, reliability, and performance",
+        "wbs": "7.06",
+        "task": "Add rate limits and abuse protections",
+        "expectedDeliverable": "Abuse-control test results.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "7.06.1",
+            "hours": 1,
+            "task": "Define practical limits for search and analysis workloads and protect external provider quotas."
+          },
+          {
+            "wbs": "7.06.2",
+            "hours": 3,
+            "task": "Exercise boundary behavior and verify rejected requests are observable."
+          },
+          {
+            "wbs": "7.06.3",
+            "hours": 1,
+            "task": "Verify \"Add rate limits and abuse protections\" against acceptance evidence: Abuse-control test results."
+          },
+          {
+            "wbs": "7.06.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Add rate limits and abuse protections\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-15",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "7",
+        "phaseName": "Security, privacy, reliability, and performance",
+        "wbs": "7.07",
+        "task": "Strengthen health checks and diagnostic signals",
+        "expectedDeliverable": "Operational diagnostics and health checks.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "7.07.1",
+            "hours": 1,
+            "task": "Define liveness/readiness semantics, correlation IDs, useful error context, and redaction rules."
+          },
+          {
+            "wbs": "7.07.2",
+            "hours": 3,
+            "task": "Simulate provider/storage outage and confirm accurate health and operator diagnostics."
+          },
+          {
+            "wbs": "7.07.3",
+            "hours": 1,
+            "task": "Verify \"Strengthen health checks and diagnostic signals\" against acceptance evidence: Operational diagnostics and health checks."
+          },
+          {
+            "wbs": "7.07.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Strengthen health checks and diagnostic signals\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-16",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "7",
+        "phaseName": "Security, privacy, reliability, and performance",
+        "wbs": "7.08",
+        "task": "Run performance and resilience probes",
+        "expectedDeliverable": "Performance/resilience baseline.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "7.08.1",
+            "hours": 1,
+            "task": "Set baseline response and resource expectations for normal, slow-provider, and bounded-load scenarios."
+          },
+          {
+            "wbs": "7.08.2",
+            "hours": 3,
+            "task": "Measure the agreed test set and document bottlenecks and evidence."
+          },
+          {
+            "wbs": "7.08.3",
+            "hours": 1,
+            "task": "Verify \"Run performance and resilience probes\" against acceptance evidence: Performance/resilience baseline."
+          },
+          {
+            "wbs": "7.08.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Run performance and resilience probes\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-17",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "7",
+        "phaseName": "Security, privacy, reliability, and performance",
+        "wbs": "7.09",
+        "task": "Complete security/privacy remediation review",
+        "expectedDeliverable": "Security/privacy readiness record.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "7.09.1",
+            "hours": 1,
+            "task": "Recheck resolved findings, residual risks, data retention, access, and release dependencies."
+          },
+          {
+            "wbs": "7.09.2",
+            "hours": 3,
+            "task": "Record explicit owners and block release for unresolved critical risks."
+          },
+          {
+            "wbs": "7.09.3",
+            "hours": 1,
+            "task": "Verify \"Complete security/privacy remediation review\" against acceptance evidence: Security/privacy readiness record."
+          },
+          {
+            "wbs": "7.09.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Complete security/privacy remediation review\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-22",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "8",
+        "phaseName": "Integrated quality assurance and deployment rehearsal",
+        "wbs": "8.01",
+        "task": "Build integrated automated test matrix",
+        "expectedDeliverable": "Requirements-to-test traceability matrix.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "8.01.1",
+            "hours": 1,
+            "task": "Map unit, route/contract, persistence, UI, accessibility, and build checks to acceptance criteria."
+          },
+          {
+            "wbs": "8.01.2",
+            "hours": 3,
+            "task": "Run clean-install tests and identify untested critical paths."
+          },
+          {
+            "wbs": "8.01.3",
+            "hours": 1,
+            "task": "Verify \"Build integrated automated test matrix\" against acceptance evidence: Requirements-to-test traceability matrix."
+          },
+          {
+            "wbs": "8.01.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Build integrated automated test matrix\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-23",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "8",
+        "phaseName": "Integrated quality assurance and deployment rehearsal",
+        "wbs": "8.02",
+        "task": "Run cross-module integration and regression",
+        "expectedDeliverable": "Integrated regression results.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "8.02.1",
+            "hours": 1,
+            "task": "Exercise site pages, API, search providers, jobs, data, reports, and deployed asset paths together."
+          },
+          {
+            "wbs": "8.02.2",
+            "hours": 3,
+            "task": "Fix regressions and preserve existing nonprofit site behavior."
+          },
+          {
+            "wbs": "8.02.3",
+            "hours": 1,
+            "task": "Verify \"Run cross-module integration and regression\" against acceptance evidence: Integrated regression results."
+          },
+          {
+            "wbs": "8.02.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Run cross-module integration and regression\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-24",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "8",
+        "phaseName": "Integrated quality assurance and deployment rehearsal",
+        "wbs": "8.03",
+        "task": "Complete user acceptance walkthrough",
+        "expectedDeliverable": "User acceptance record.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "8.03.1",
+            "hours": 1,
+            "task": "Conduct realistic user-journey review using safe fixtures and record expected versus observed behavior."
+          },
+          {
+            "wbs": "8.03.2",
+            "hours": 3,
+            "task": "Resolve or formally defer all blocking acceptance defects."
+          },
+          {
+            "wbs": "8.03.3",
+            "hours": 1,
+            "task": "Verify \"Complete user acceptance walkthrough\" against acceptance evidence: User acceptance record."
+          },
+          {
+            "wbs": "8.03.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Complete user acceptance walkthrough\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-29",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "8",
+        "phaseName": "Integrated quality assurance and deployment rehearsal",
+        "wbs": "8.04",
+        "task": "Rehearse backup, restore, and rollback",
+        "expectedDeliverable": "Recovery rehearsal evidence.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "8.04.1",
+            "hours": 1,
+            "task": "Exercise release backup, data restore, rollback triggers, and recovery ownership."
+          },
+          {
+            "wbs": "8.04.2",
+            "hours": 3,
+            "task": "Measure recovery steps and confirm no untested destructive migration remains."
+          },
+          {
+            "wbs": "8.04.3",
+            "hours": 1,
+            "task": "Verify \"Rehearse backup, restore, and rollback\" against acceptance evidence: Recovery rehearsal evidence."
+          },
+          {
+            "wbs": "8.04.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Rehearse backup, restore, and rollback\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-30",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "8",
+        "phaseName": "Integrated quality assurance and deployment rehearsal",
+        "wbs": "8.05",
+        "task": "Rehearse production deployment and smoke checks",
+        "expectedDeliverable": "Release-candidate rehearsal report.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "8.05.1",
+            "hours": 1,
+            "task": "Deploy a release candidate to the intended hosting configuration and check health, routes, assets, and provider setup."
+          },
+          {
+            "wbs": "8.05.2",
+            "hours": 3,
+            "task": "Capture deployment outputs and confirm rollback path is viable."
+          },
+          {
+            "wbs": "8.05.3",
+            "hours": 1,
+            "task": "Verify \"Rehearse production deployment and smoke checks\" against acceptance evidence: Release-candidate rehearsal report."
+          },
+          {
+            "wbs": "8.05.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Rehearse production deployment and smoke checks\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-03-31",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "8",
+        "phaseName": "Integrated quality assurance and deployment rehearsal",
+        "wbs": "8.06",
+        "task": "Review readiness criteria and open risks",
+        "expectedDeliverable": "Release readiness decision package.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "8.06.1",
+            "hours": 1,
+            "task": "Review automated tests, acceptance, security/privacy, performance, operational ownership, and known limitations."
+          },
+          {
+            "wbs": "8.06.2",
+            "hours": 3,
+            "task": "Issue a go/no-go recommendation with unresolved conditions clearly identified."
+          },
+          {
+            "wbs": "8.06.3",
+            "hours": 1,
+            "task": "Verify \"Review readiness criteria and open risks\" against acceptance evidence: Release readiness decision package."
+          },
+          {
+            "wbs": "8.06.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Review readiness criteria and open risks\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-04-05",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "9",
+        "phaseName": "Production cutover, stabilization, and handoff",
+        "wbs": "9.01",
+        "task": "Finalize operator and contributor documentation",
+        "expectedDeliverable": "Production operations and contributor guide.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "9.01.1",
+            "hours": 1,
+            "task": "Publish setup, architecture, environment, support, recovery, and change-management instructions."
+          },
+          {
+            "wbs": "9.01.2",
+            "hours": 3,
+            "task": "Validate documentation against a clean environment and named operational contacts."
+          },
+          {
+            "wbs": "9.01.3",
+            "hours": 1,
+            "task": "Verify \"Finalize operator and contributor documentation\" against acceptance evidence: Production operations and contributor guide."
+          },
+          {
+            "wbs": "9.01.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Finalize operator and contributor documentation\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-04-06",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "9",
+        "phaseName": "Production cutover, stabilization, and handoff",
+        "wbs": "9.02",
+        "task": "Hold final release review",
+        "expectedDeliverable": "Signed-off release decision and checklist.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "9.02.1",
+            "hours": 1,
+            "task": "Confirm acceptance evidence, approved scope, security/privacy disposition, backups, support, and rollback readiness."
+          },
+          {
+            "wbs": "9.02.2",
+            "hours": 3,
+            "task": "Record a dated go/no-go decision; defer cutover if a release gate is unmet."
+          },
+          {
+            "wbs": "9.02.3",
+            "hours": 1,
+            "task": "Verify \"Hold final release review\" against acceptance evidence: Signed-off release decision and checklist."
+          },
+          {
+            "wbs": "9.02.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Hold final release review\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-04-07",
+        "weekday": "Wednesday",
+        "hours": 6,
+        "phaseId": "9",
+        "phaseName": "Production cutover, stabilization, and handoff",
+        "wbs": "9.03",
+        "task": "Execute controlled production cutover",
+        "expectedDeliverable": "Production cutover record.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "9.03.1",
+            "hours": 1,
+            "task": "Apply the approved deploy/data migration sequence and monitor health, core routes, and provider integrations."
+          },
+          {
+            "wbs": "9.03.2",
+            "hours": 3,
+            "task": "Validate key journeys and trigger documented rollback if exit criteria fail."
+          },
+          {
+            "wbs": "9.03.3",
+            "hours": 1,
+            "task": "Verify \"Execute controlled production cutover\" against acceptance evidence: Production cutover record."
+          },
+          {
+            "wbs": "9.03.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Execute controlled production cutover\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-04-12",
+        "weekday": "Monday",
+        "hours": 6,
+        "phaseId": "9",
+        "phaseName": "Production cutover, stabilization, and handoff",
+        "wbs": "9.04",
+        "task": "Stabilize and resolve launch defects",
+        "expectedDeliverable": "Stabilization log and resolved defect evidence.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "9.04.1",
+            "hours": 1,
+            "task": "Review production signals and user feedback; triage defects, service errors, and performance regressions."
+          },
+          {
+            "wbs": "9.04.2",
+            "hours": 3,
+            "task": "Confirm critical issues are resolved or the system is rolled back."
+          },
+          {
+            "wbs": "9.04.3",
+            "hours": 1,
+            "task": "Verify \"Stabilize and resolve launch defects\" against acceptance evidence: Stabilization log and resolved defect evidence."
+          },
+          {
+            "wbs": "9.04.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Stabilize and resolve launch defects\"."
+          }
+        ]
+      },
+      {
+        "date": "2027-04-13",
+        "weekday": "Tuesday",
+        "hours": 6,
+        "phaseId": "9",
+        "phaseName": "Production cutover, stabilization, and handoff",
+        "wbs": "9.05",
+        "task": "Complete handoff and closeout",
+        "expectedDeliverable": "Handoff package and project closeout.",
+        "status": "Planned; work not yet performed.",
+        "breakdown": [
+          {
+            "wbs": "9.05.1",
+            "hours": 1,
+            "task": "Summarize delivered scope, known limitations, operational actions, deferred backlog, and maintenance cadence."
+          },
+          {
+            "wbs": "9.05.2",
+            "hours": 3,
+            "task": "Confirm owners can deploy, verify, restore, and support the integrated application."
+          },
+          {
+            "wbs": "9.05.3",
+            "hours": 1,
+            "task": "Verify \"Complete handoff and closeout\" against acceptance evidence: Handoff package and project closeout."
+          },
+          {
+            "wbs": "9.05.4",
+            "hours": 1,
+            "task": "Record decisions, verification evidence, and next steps for \"Complete handoff and closeout\"."
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "id": "1",
+        "name": "Discovery, inventory, and acceptance baseline",
+        "estimatedHours": 50,
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-28",
+        "plannedWorkdays": 8,
+        "activities": [
+          {
+            "wbs": "1.01",
+            "task": "Confirm production scope and non-goals",
+            "expectedDeliverable": "Approved scope matrix and exclusions."
+          },
+          {
+            "wbs": "1.02",
+            "task": "Inventory NationalAI site routes and build",
+            "expectedDeliverable": "Destination baseline and route inventory."
+          },
+          {
+            "wbs": "1.03",
+            "task": "Inventory patent-search application entry points",
+            "expectedDeliverable": "Application component and route inventory."
+          },
+          {
+            "wbs": "1.04",
+            "task": "Trace data flows and storage",
+            "expectedDeliverable": "Data-flow diagram and unresolved privacy questions."
+          },
+          {
+            "wbs": "1.05",
+            "task": "Audit dependencies, assets, and licenses",
+            "expectedDeliverable": "Dependency/asset/license register."
+          },
+          {
+            "wbs": "1.06",
+            "task": "Define user stories and acceptance criteria",
+            "expectedDeliverable": "Prioritized acceptance checklist."
+          },
+          {
+            "wbs": "1.07",
+            "task": "Assess runtime and deployment constraints",
+            "expectedDeliverable": "Runtime/deployment constraint register."
+          },
+          {
+            "wbs": "1.08",
+            "task": "Approve baseline and migration decision record",
+            "expectedDeliverable": "Discovery sign-off package and decision log."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Target architecture and integration foundation",
+        "estimatedHours": 56,
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-18",
+        "plannedWorkdays": 9,
+        "activities": [
+          {
+            "wbs": "2.01",
+            "task": "Select integration boundary",
+            "expectedDeliverable": "Architecture decision record."
+          },
+          {
+            "wbs": "2.02",
+            "task": "Design repository and module layout",
+            "expectedDeliverable": "Target repository layout and ownership map."
+          },
+          {
+            "wbs": "2.03",
+            "task": "Define API contracts",
+            "expectedDeliverable": "API contract specification."
+          },
+          {
+            "wbs": "2.04",
+            "task": "Design persistence schema and migration policy",
+            "expectedDeliverable": "Initial data model and migration policy."
+          },
+          {
+            "wbs": "2.05",
+            "task": "Design job/queue boundary",
+            "expectedDeliverable": "Queue decision and job lifecycle."
+          },
+          {
+            "wbs": "2.06",
+            "task": "Establish environment and secret model",
+            "expectedDeliverable": "Environment variable inventory and handling rules."
+          },
+          {
+            "wbs": "2.07",
+            "task": "Add integrated developer workflow",
+            "expectedDeliverable": "Repeatable local developer instructions."
+          },
+          {
+            "wbs": "2.08",
+            "task": "Create observability and test scaffolding",
+            "expectedDeliverable": "Logging, health, and test design baseline."
+          },
+          {
+            "wbs": "2.09",
+            "task": "Review and baseline target architecture",
+            "expectedDeliverable": "Reviewed architecture baseline and decision log."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Patent search and core service integration",
+        "estimatedHours": 74,
+        "startDate": "2026-11-23",
+        "endDate": "2026-12-16",
+        "plannedWorkdays": 12,
+        "activities": [
+          {
+            "wbs": "3.01",
+            "task": "Port and isolate search request validation",
+            "expectedDeliverable": "Validated search request boundary."
+          },
+          {
+            "wbs": "3.02",
+            "task": "Implement USPTO client adapter",
+            "expectedDeliverable": "Testable USPTO adapter."
+          },
+          {
+            "wbs": "3.03",
+            "task": "Review browser automation fallback",
+            "expectedDeliverable": "Documented browser-provider adapter and risks."
+          },
+          {
+            "wbs": "3.04",
+            "task": "Normalize patent result identifiers",
+            "expectedDeliverable": "Canonical patent record mapper."
+          },
+          {
+            "wbs": "3.05",
+            "task": "Integrate search route and service boundary",
+            "expectedDeliverable": "Integrated search API route."
+          },
+          {
+            "wbs": "3.06",
+            "task": "Implement pagination and bounded result handling",
+            "expectedDeliverable": "Bounded and predictable result pagination."
+          },
+          {
+            "wbs": "3.07",
+            "task": "Implement throttling and upstream timeout behavior",
+            "expectedDeliverable": "Resilient provider request policy."
+          },
+          {
+            "wbs": "3.08",
+            "task": "Connect results view to normalized records",
+            "expectedDeliverable": "Integrated search-to-results user journey."
+          },
+          {
+            "wbs": "3.09",
+            "task": "Preserve source links and retrieval metadata",
+            "expectedDeliverable": "Traceable source metadata."
+          },
+          {
+            "wbs": "3.10",
+            "task": "Test provider contract and route regression",
+            "expectedDeliverable": "Search integration regression evidence."
+          },
+          {
+            "wbs": "3.11",
+            "task": "Harden service error boundaries",
+            "expectedDeliverable": "Explicit search failure behavior."
+          },
+          {
+            "wbs": "3.12",
+            "task": "Review search integration acceptance",
+            "expectedDeliverable": "Search feature acceptance record."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Ingestion, background jobs, and persistence",
+        "estimatedHours": 54,
+        "startDate": "2026-12-21",
+        "endDate": "2027-01-06",
+        "plannedWorkdays": 9,
+        "activities": [
+          {
+            "wbs": "4.01",
+            "task": "Inventory existing data files safely",
+            "expectedDeliverable": "Data disposition and migration inventory."
+          },
+          {
+            "wbs": "4.02",
+            "task": "Define persistence interface",
+            "expectedDeliverable": "Persistence adapter contract."
+          },
+          {
+            "wbs": "4.03",
+            "task": "Implement schema/version migration path",
+            "expectedDeliverable": "Repeatable data migration."
+          },
+          {
+            "wbs": "4.04",
+            "task": "Build idempotent ingestion workflow",
+            "expectedDeliverable": "Idempotent ingestion behavior."
+          },
+          {
+            "wbs": "4.05",
+            "task": "Implement bounded job state transitions",
+            "expectedDeliverable": "Explicit job lifecycle model."
+          },
+          {
+            "wbs": "4.06",
+            "task": "Add retry and dead-letter policy",
+            "expectedDeliverable": "Recoverable background processing policy."
+          },
+          {
+            "wbs": "4.07",
+            "task": "Connect persistence to results and analysis",
+            "expectedDeliverable": "Integrated stored-result workflow."
+          },
+          {
+            "wbs": "4.08",
+            "task": "Implement retention and export/restore controls",
+            "expectedDeliverable": "Retention and recovery runbook."
+          },
+          {
+            "wbs": "4.09",
+            "task": "Validate ingestion and persistence acceptance",
+            "expectedDeliverable": "Ingestion/persistence acceptance evidence."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "AI analysis and report workflow",
+        "estimatedHours": 66,
+        "startDate": "2027-01-11",
+        "endDate": "2027-02-02",
+        "plannedWorkdays": 11,
+        "activities": [
+          {
+            "wbs": "5.01",
+            "task": "Define analysis inputs and evidence contract",
+            "expectedDeliverable": "Evidence-aware analysis input contract."
+          },
+          {
+            "wbs": "5.02",
+            "task": "Isolate model/provider configuration",
+            "expectedDeliverable": "Model provider adapter and configuration policy."
+          },
+          {
+            "wbs": "5.03",
+            "task": "Implement analysis job orchestration",
+            "expectedDeliverable": "Traceable analysis job flow."
+          },
+          {
+            "wbs": "5.04",
+            "task": "Add source-grounded output structure",
+            "expectedDeliverable": "Structured source-grounded report format."
+          },
+          {
+            "wbs": "5.05",
+            "task": "Implement report generation and retrieval",
+            "expectedDeliverable": "Versioned report artifact flow."
+          },
+          {
+            "wbs": "5.06",
+            "task": "Add safeguards for unsupported advice",
+            "expectedDeliverable": "Output-safety review checklist and tests."
+          },
+          {
+            "wbs": "5.07",
+            "task": "Handle analysis limits and provider failures",
+            "expectedDeliverable": "Bounded analysis request behavior."
+          },
+          {
+            "wbs": "5.08",
+            "task": "Build review and correction workflow",
+            "expectedDeliverable": "Human review and correction path."
+          },
+          {
+            "wbs": "5.09",
+            "task": "Add audit metadata and reproducibility cues",
+            "expectedDeliverable": "Auditable analysis metadata."
+          },
+          {
+            "wbs": "5.10",
+            "task": "Test analysis behavior with fixtures",
+            "expectedDeliverable": "Analysis regression suite."
+          },
+          {
+            "wbs": "5.11",
+            "task": "Review report acceptance and safeguards",
+            "expectedDeliverable": "Analysis/report acceptance record."
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Integrated user experience and accessibility",
+        "estimatedHours": 60,
+        "startDate": "2027-02-03",
+        "endDate": "2027-02-24",
+        "plannedWorkdays": 10,
+        "activities": [
+          {
+            "wbs": "6.01",
+            "task": "Design unified navigation and page hierarchy",
+            "expectedDeliverable": "Unified navigation specification."
+          },
+          {
+            "wbs": "6.02",
+            "task": "Implement search workflow interface",
+            "expectedDeliverable": "Accessible search interface."
+          },
+          {
+            "wbs": "6.03",
+            "task": "Integrate result list and detail presentation",
+            "expectedDeliverable": "Responsive result list/detail view."
+          },
+          {
+            "wbs": "6.04",
+            "task": "Implement status, error, empty, and partial states",
+            "expectedDeliverable": "Complete asynchronous state handling."
+          },
+          {
+            "wbs": "6.05",
+            "task": "Build analysis/report review screens",
+            "expectedDeliverable": "Reviewable analysis/report UI."
+          },
+          {
+            "wbs": "6.06",
+            "task": "Integrate public site styling and components",
+            "expectedDeliverable": "Consistent integrated design system."
+          },
+          {
+            "wbs": "6.07",
+            "task": "Add responsive layout and touch behavior",
+            "expectedDeliverable": "Responsive layout checks."
+          },
+          {
+            "wbs": "6.08",
+            "task": "Audit accessibility semantics and focus",
+            "expectedDeliverable": "Accessibility findings and remediations."
+          },
+          {
+            "wbs": "6.09",
+            "task": "Review content clarity and privacy notices",
+            "expectedDeliverable": "Reviewed user-facing explanatory copy."
+          },
+          {
+            "wbs": "6.10",
+            "task": "Run end-to-end UX acceptance",
+            "expectedDeliverable": "UX acceptance notes and defect list."
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "name": "Security, privacy, reliability, and performance",
+        "estimatedHours": 54,
+        "startDate": "2027-03-01",
+        "endDate": "2027-03-17",
+        "plannedWorkdays": 9,
+        "activities": [
+          {
+            "wbs": "7.01",
+            "task": "Review credentials and deployment secrets",
+            "expectedDeliverable": "Secret-handling verification."
+          },
+          {
+            "wbs": "7.02",
+            "task": "Review HTTP boundaries and browser protections",
+            "expectedDeliverable": "HTTP/browser security configuration."
+          },
+          {
+            "wbs": "7.03",
+            "task": "Validate input, output, and file boundaries",
+            "expectedDeliverable": "Input/output boundary test evidence."
+          },
+          {
+            "wbs": "7.04",
+            "task": "Review personal and geolocation data handling",
+            "expectedDeliverable": "Data minimization and access review."
+          },
+          {
+            "wbs": "7.05",
+            "task": "Assess dependency and license risk",
+            "expectedDeliverable": "Dependency risk register."
+          },
+          {
+            "wbs": "7.06",
+            "task": "Add rate limits and abuse protections",
+            "expectedDeliverable": "Abuse-control test results."
+          },
+          {
+            "wbs": "7.07",
+            "task": "Strengthen health checks and diagnostic signals",
+            "expectedDeliverable": "Operational diagnostics and health checks."
+          },
+          {
+            "wbs": "7.08",
+            "task": "Run performance and resilience probes",
+            "expectedDeliverable": "Performance/resilience baseline."
+          },
+          {
+            "wbs": "7.09",
+            "task": "Complete security/privacy remediation review",
+            "expectedDeliverable": "Security/privacy readiness record."
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "Integrated quality assurance and deployment rehearsal",
+        "estimatedHours": 36,
+        "startDate": "2027-03-22",
+        "endDate": "2027-03-31",
+        "plannedWorkdays": 6,
+        "activities": [
+          {
+            "wbs": "8.01",
+            "task": "Build integrated automated test matrix",
+            "expectedDeliverable": "Requirements-to-test traceability matrix."
+          },
+          {
+            "wbs": "8.02",
+            "task": "Run cross-module integration and regression",
+            "expectedDeliverable": "Integrated regression results."
+          },
+          {
+            "wbs": "8.03",
+            "task": "Complete user acceptance walkthrough",
+            "expectedDeliverable": "User acceptance record."
+          },
+          {
+            "wbs": "8.04",
+            "task": "Rehearse backup, restore, and rollback",
+            "expectedDeliverable": "Recovery rehearsal evidence."
+          },
+          {
+            "wbs": "8.05",
+            "task": "Rehearse production deployment and smoke checks",
+            "expectedDeliverable": "Release-candidate rehearsal report."
+          },
+          {
+            "wbs": "8.06",
+            "task": "Review readiness criteria and open risks",
+            "expectedDeliverable": "Release readiness decision package."
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "name": "Production cutover, stabilization, and handoff",
+        "estimatedHours": 30,
+        "startDate": "2027-04-05",
+        "endDate": "2027-04-13",
+        "plannedWorkdays": 5,
+        "activities": [
+          {
+            "wbs": "9.01",
+            "task": "Finalize operator and contributor documentation",
+            "expectedDeliverable": "Production operations and contributor guide."
+          },
+          {
+            "wbs": "9.02",
+            "task": "Hold final release review",
+            "expectedDeliverable": "Signed-off release decision and checklist."
+          },
+          {
+            "wbs": "9.03",
+            "task": "Execute controlled production cutover",
+            "expectedDeliverable": "Production cutover record."
+          },
+          {
+            "wbs": "9.04",
+            "task": "Stabilize and resolve launch defects",
+            "expectedDeliverable": "Stabilization log and resolved defect evidence."
+          },
+          {
+            "wbs": "9.05",
+            "task": "Complete handoff and closeout",
+            "expectedDeliverable": "Handoff package and project closeout."
+          }
+        ]
+      }
+    ]
+  }
+}

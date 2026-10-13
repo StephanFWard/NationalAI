@@ -12,7 +12,21 @@ Contact: `stephan.ward5@icloud.com` · `910.727.9500`.
 - `/about/` — Contact page.
 - `/2024/07/11/articles-of-incorperation-6-29-2024/` — Articles of Incorporation.
 - `/posts/` — Post index.
+- `/work-log/` — Volunteer IT work-log estimates and the 480-hour application integration plan.
 - `/404.html` — Not-found page.
+
+## Volunteer IT work log
+
+The [public Work Log](https://nationalai.onrender.com/work-log/) contains a clearly
+identified reconstruction of the 2026 weekly work pattern and the dated
+October 2026–April 2027 integration plan. Downloadable Word documents and the
+underlying schedule data are in [`docs/work-log/`](docs/work-log/).
+
+The retrospective is an estimate based on the founder's stated weekly cadence,
+the currently available repository history, and the founder-reported October
+migration completion. It is not a contemporaneous timecard or independently
+verified record; review and correct it against personal records before relying
+on it as an official accounting.
 
 Source pages live in `src/pages/` and are composed from components in
 `src/components/` (one folder per component). Global tokens and the reset live
@@ -67,4 +81,3 @@ dist/               # generated output (git-ignored)
   WordPress posts, and WordPress references were removed per request.
 - Theme is a brighter soft-dark slate (`#232937` surfaces, `#ced6e2` text)
   without harsh black/white contrast.
-

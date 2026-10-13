@@ -8,6 +8,7 @@ const test = require('node:test');
 const ROOT_DIR = path.join(__dirname, '..');
 const DIST_DIR = path.join(ROOT_DIR, 'dist');
 const { build } = require('../build.js');
+const workLog = require('../docs/work-log/work-log-data.json');
 
 function distFiles(extension) {
   const found = [];
@@ -30,7 +31,7 @@ function distFiles(extension) {
 test('build produces the expected deployable files', () => {
   const result = build();
 
-  assert.equal(result.pages.length, 5);
+  assert.equal(result.pages.length, 6);
   assert.deepEqual(
     result.pages.map((page) => page.url).sort(),
     [
@@ -38,12 +39,94 @@ test('build produces the expected deployable files', () => {
       '/2024/07/11/articles-of-incorperation-6-29-2024/',
       '/404.html',
       '/about/',
-      '/posts/'
+      '/posts/',
+      '/work-log/'
     ]
   );
 
   for (const asset of ['assets/styles.css', 'assets/favicon.svg', 'sitemap.xml', 'robots.txt']) {
     assert.ok(fs.existsSync(path.join(DIST_DIR, asset)), `missing dist/${asset}`);
+  }
+
+  for (const document of [
+    '2026-retrospective-estimate.docx',
+    '2026-2027-production-integration-plan.docx'
+  ]) {
+    const source = path.join(ROOT_DIR, 'docs', 'work-log', document);
+    const published = path.join(DIST_DIR, 'work-log', document);
+    assert.ok(fs.existsSync(source), `missing source document ${document}`);
+    assert.ok(fs.existsSync(published), `missing published work-log document ${document}`);
+    assert.ok(fs.statSync(source).size > 1000, `${document} appears incomplete`);
+    assert.equal(fs.readFileSync(source).subarray(0, 2).toString(), 'PK', `${document} is not a ZIP-based Word file`);
+    assert.deepEqual(fs.readFileSync(published), fs.readFileSync(source));
+  }
+});
+
+test('public work log identifies estimates and links the Word documents', () => {
+  build();
+
+  const page = fs.readFileSync(path.join(DIST_DIR, 'work-log', 'index.html'), 'utf8');
+  assert.ok(page.includes('reconstructed estimates'), 'work log does not identify retrospective estimates');
+  assert.ok(page.includes('/work-log/2026-retrospective-estimate.docx'), 'retrospective download link is missing');
+  assert.ok(page.includes('/work-log/2026-2027-production-integration-plan.docx'), 'project plan download link is missing');
+  assert.ok(page.includes('480 project hours'), 'project-hours scope is missing');
+});
+
+test('work-log data has correct retrospective and prospective dates and hour totals', () => {
+  const weeks = workLog.retrospective.weeks;
+  assert.equal(weeks.length, 41);
+  assert.equal(workLog.retrospective.totalHours, 820);
+  assert.equal(workLog.retrospective.availabilityCheckHours, 41);
+  assert.equal(workLog.retrospective.computerAndSoftwareUpdateHours, 41);
+  assert.equal(workLog.retrospective.developmentHours, 738);
+  assert.equal(weeks[0].startDate, '2026-01-01');
+  assert.equal(weeks[0].endDate, '2026-01-04');
+  assert.equal(weeks[0].partialCalendarWeek, true);
+  assert.equal(weeks[weeks.length - 1].startDate, '2026-10-05');
+  assert.equal(weeks[weeks.length - 1].endDate, '2026-10-11');
+  for (const week of weeks) {
+    assert.equal(
+      week.availabilityCheckHours
+        + week.computerAndSoftwareUpdateHours
+        + week.developmentBreakdown.designAndPlanningHours
+        + week.developmentBreakdown.implementationAndConfigurationHours
+        + week.developmentBreakdown.verificationAndDocumentationHours,
+      20,
+      `week ${week.week} does not total 20 estimated hours`
+    );
+  }
+
+  const plan = workLog.projectPlan;
+  assert.equal(plan.startDate, '2026-10-13');
+  assert.equal(plan.endDate, '2027-04-13');
+  assert.equal(plan.dailyEntries.length, 79);
+  assert.equal(plan.plannedHours, 480);
+  assert.equal(plan.dailyEntries.filter((day) => day.hours === 8).length, 3);
+  assert.equal(plan.dailyEntries[0].weekday, 'Tuesday');
+  assert.equal(plan.dailyEntries[0].date, '2026-10-13');
+  assert.equal(plan.dailyEntries[plan.dailyEntries.length - 1].weekday, 'Tuesday');
+  assert.equal(plan.dailyEntries[plan.dailyEntries.length - 1].date, '2027-04-13');
+  assert.deepEqual(
+    plan.phases.map((phase) => phase.estimatedHours),
+    [50, 56, 74, 54, 66, 60, 54, 36, 30]
+  );
+  assert.equal(plan.phases.reduce((total, phase) => total + phase.estimatedHours, 0), 480);
+  assert.equal(new Set(plan.dailyEntries.map((day) => day.date)).size, 79);
+
+  for (const day of plan.dailyEntries) {
+    const weekday = new Date(`${day.date}T12:00:00Z`).getUTCDay();
+    assert.ok([1, 2, 3].includes(weekday), `${day.date} is not a Monday, Tuesday, or Wednesday`);
+    assert.ok([6, 8].includes(day.hours), `${day.date} has an unexpected planned day length`);
+    assert.equal(
+      day.breakdown.reduce((total, task) => total + task.hours, 0),
+      day.hours,
+      `${day.date} task breakdown does not match scheduled hours`
+    );
+    assert.ok(
+      day.breakdown.every((task) => task.task.trim().length > 0),
+      `${day.date} has an empty WBS task`
+    );
+    assert.ok(day.expectedDeliverable.length > 0, `${day.date} is missing an expected deliverable`);
   }
 });
 

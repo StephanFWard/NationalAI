@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node build.js",
     "test": "node --test tests/site.test.js",
+    "work-log:docs": "node scripts/generate-work-log-data.js && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-work-log-docs.ps1",
     "serve": "node -e \"require('http');\""
   },
   "engines": {
