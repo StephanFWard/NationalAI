@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analysis Search – Patent Search – National AI Advancement for Human Innovation</title>
+  <meta name="description" content="Search USPTO patent records and view normalized results with source links and retrieval metadata.">
+  <meta name="theme-color" content="#232937">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <!-- @include SiteHeader -->
+
+  <!-- @include Document -->
+    <header class="document__header">
+      <h1 class="document__title">Analysis Search</h1>
+      <p class="document__meta"><strong>National AI Advancement for Human Innovation</strong></p>
+    </header>
+
+    <p class="document__lead">Search USPTO patent records in real time. Enter a keyword or patent number to retrieve matching results, each linked back to its source at the USPTO.</p>
+
+    <aside class="document__note">
+      <strong>How it works:</strong> This page calls the public USPTO Patent Examination Data System (PEDS) search endpoint directly from your browser. No backend is required. Results are paginated locally, and every result carries a traceable source link so you can verify each record on the USPTO site.
+    </aside>
+
+    <section class="document__section" id="analysis-search">
+      <!-- @include AnalysisSearch -->
+    </section>
+  <!-- @endinclude Document -->
+
+  <script src="/assets/analysis-search.js"></script>
+
+  <!-- @include SiteFooter -->
+</body>
+</html>
