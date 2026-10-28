@@ -37,6 +37,7 @@ const SRC_DIR = path.join(ROOT_DIR, 'src');
 const PAGES_DIR = path.join(SRC_DIR, 'pages');
 const COMPONENTS_DIR = path.join(SRC_DIR, 'components');
 const STYLES_DIR = path.join(SRC_DIR, 'styles');
+const ASSETS_DIR = path.join(ROOT_DIR, 'assets');
 const WORK_LOG_DIR = path.join(ROOT_DIR, 'docs', 'work-log');
 const WORK_LOG_FILES = [
   '2026-retrospective-estimate.docx',
@@ -310,6 +311,18 @@ function writeFile(filePath, contents) {
   fs.writeFileSync(filePath, contents);
 }
 
+function copyComponentAssets(outDir, componentNames) {
+  const outAssetsDir = path.join(outDir, 'assets');
+  fs.mkdirSync(outAssetsDir, { recursive: true });
+
+  for (const name of componentNames) {
+    const jsFile = path.join(COMPONENTS_DIR, name, name + '.js');
+    if (fs.existsSync(jsFile)) {
+      fs.copyFileSync(jsFile, path.join(outAssetsDir, name + '.js'));
+    }
+  }
+}
+
 function buildSitemap(pages) {
   const today = new Date().toISOString().slice(0, 10);
   const entries = pages
@@ -370,6 +383,7 @@ function build(argv = process.argv.slice(2)) {
 
   writeFile(path.join(outDir, 'assets', 'styles.css'), bundleStylesheet(componentNames));
   writeFile(path.join(outDir, 'assets', 'favicon.svg'), FAVICON_SVG);
+  copyComponentAssets(outDir, componentNames);
   for (const file of WORK_LOG_FILES) {
     const sourceFile = path.join(WORK_LOG_DIR, file);
     if (!fs.existsSync(sourceFile)) {

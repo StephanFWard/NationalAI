@@ -31,7 +31,7 @@ function distFiles(extension) {
 test('build produces the expected deployable files', () => {
   const result = build();
 
-  assert.equal(result.pages.length, 6);
+  assert.equal(result.pages.length, 7);
   assert.deepEqual(
     result.pages.map((page) => page.url).sort(),
     [
@@ -39,6 +39,7 @@ test('build produces the expected deployable files', () => {
       '/2024/07/11/articles-of-incorperation-6-29-2024/',
       '/404.html',
       '/about/',
+      '/analysis-search/',
       '/posts/',
       '/work-log/'
     ]

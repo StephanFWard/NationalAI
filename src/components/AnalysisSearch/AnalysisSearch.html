@@ -1,0 +1,45 @@
+<form class="analysis-search__form" id="analysis-search-form">
+  <label class="analysis-search__label" for="analysis-search-query">
+    Patent search
+  </label>
+  <div class="analysis-search__input-wrapper">
+    <input
+      class="analysis-search__input"
+      id="analysis-search-query"
+      type="search"
+      name="q"
+      placeholder="Enter a patent keyword or number (for example: engine)"
+      required
+      aria-describedby="analysis-search-hint analysis-search-error"
+    />
+    <span id="analysis-search-hint" class="analysis-search__hint">
+      Searches the USPTO patent database and lists matching results.
+    </span>
+    <span id="analysis-search-error" class="analysis-search__error" role="alert" aria-live="polite"></span>
+  </div>
+  <button class="analysis-search__button" type="submit" id="analysis-search-button">
+    Search
+  </button>
+</form>
+
+<div class="analysis-search__results" id="analysis-search-results" aria-label="Search results">
+  <div class="analysis-search__results-header">
+    <h2 class="analysis-search__results-title" id="analysis-search-results-title">Results</h2>
+    <p class="analysis-search__results-count" id="analysis-search-results-count"></p>
+  </div>
+  <div class="analysis-search__results-list" id="analysis-search-results-list"></div>
+
+  <div class="analysis-search__pagination" id="analysis-search-pagination" hidden>
+    <button class="analysis-search__pagination-button" id="analysis-search-prev" type="button">Previous</button>
+    <span class="analysis-search__pagination-page" id="analysis-search-page-info"></span>
+    <button class="analysis-search__pagination-button" id="analysis-search-next" type="button">Next</button>
+  </div>
+</div>
+
+<div class="analysis-search__loading" id="analysis-search-loading" hidden role="status" aria-live="polite">
+  <span class="analysis-search__loading-text">Searching&hellip;</span>
+</div>
+
+<div class="analysis-search__empty" id="analysis-search-empty" hidden>
+  <p class="analysis-search__empty-text">No patents matched your search. Try a different keyword or patent number.</p>
+</div>

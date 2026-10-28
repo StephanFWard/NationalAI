@@ -13,6 +13,7 @@ Contact: `stephan.ward5@icloud.com` · `910.727.9500`.
 - `/2024/07/11/articles-of-incorperation-6-29-2024/` — Articles of Incorporation.
 - `/posts/` — Post index.
 - `/work-log/` — Volunteer IT work-log estimates and the 480-hour application integration plan.
+- `/analysis-search/` — Client-side USPTO patent search integrated from ai_scrape_app.
 - `/404.html` — Not-found page.
 
 ## Volunteer IT work log
@@ -68,7 +69,7 @@ Steps:
 ```text
 build.js              # include-expanding static builder (Node built-ins only)
 render.yaml           # Render static-site blueprint
-src/components/     # Document, PostCard, PostList, SiteFooter, SiteHeader
+src/components/     # AnalysisSearch, Document, PostCard, PostList, SiteFooter, SiteHeader
 src/pages/          # index, about, posts, dated article, 404
 src/styles/         # tokens.css, reset.css (global tokens only)
 tests/site.test.js  # build + content + theme regression tests
