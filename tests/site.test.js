@@ -188,7 +188,7 @@ test('pages keep exact wording, contact details, and no WordPress or PayPal trac
 
   for (const file of distFiles('.html')) {
     assert.ok(
-      fs.readFileSync(file, 'utf8').includes('Updated Website: 10/03/2026'),
+      fs.readFileSync(file, 'utf8').includes('Updated Website: 10/28/2026'),
       `${path.relative(ROOT_DIR, file)} is missing the footer update stamp`
     );
   }
